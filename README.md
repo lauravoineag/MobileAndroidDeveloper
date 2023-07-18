@@ -97,20 +97,17 @@ To keep main shippable, people will often use 'feature toggles' or 'feature swit
 
  - [ ] CD -Continuous Delivery -  from releasing code to how the user gets it 
 
- The idea that every single commit made to main is not only releasable, but is also released! The argument is: "If you have sufficient automated testing, it should be possible to continuously deliver the latest version of your software as soon as it is available".
+The idea that every single commit made to main is not only releasable, but is also released! The argument is: "If you have sufficient automated testing, it should be possible to continuously deliver the latest version of your software as soon as it is available".
 In practice, people are super worried about that, and it only really works in an environment where you can push updates to users (e.g. websites or services) whilst mobile development is a pull model, where someone needs to go to the store and tap on update to get any changes (boo).
 We may use CD to publish potential releases to the Alpha/Beta tracks of Google Play.
 
-# 3 . Other platforms for learning Language:
-
+# 3. Other platforms for learning Language:
  ##### Practice Language Code wars - Katas to learn Kotlin
 - https://www.codewars.com/
 - https://play.kotlinlang.org/koans/overview
 
  ##### Other resources
 - https://developer.android.com/kotlin/style-guide?authuser=1
-  
-
-    https://developer.android.com/studio/projects?authuser=1
-https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?authuser=1
+- https://developer.android.com/studio/projects?authuser=1
+- https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?authuser=1
 
