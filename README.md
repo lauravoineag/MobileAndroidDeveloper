@@ -68,7 +68,7 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] Git branching https://learngitbranching.js.org/
 - [ ] Accessibility https://developer.android.com/jetpack/compose/accessibility?authuser=1
 - [ ] AWS Essential Course
-- [ ] Remote config
+- [ ] Remote config- it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 
 # 2. Kotlin
