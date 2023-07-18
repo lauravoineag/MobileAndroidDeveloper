@@ -4,7 +4,8 @@
 
 #### Learned while pairing:
 - make small changes frequently in the UI 
-- responsive design - design solutions in responsive ways -sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column- don't add size to button - add the size in the parent/column 
+- responsive design - design solutions in responsive ways -sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column- don't add size to button - add the size in the parent/column
+- Design and Arhitecture -  Think about what responsibilities each class has - The Responsibilities are triggering all the input
 
 
 #### Codelabs 
