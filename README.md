@@ -13,7 +13,6 @@
 - [ ] Codelab basics https://developer.android.com/codelabs/jetpack-compose-basics#12
 
 #### MAD skills videos -  do Android basics code labs before watching these
-
 - [ ] Kotlin in Android - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc98e0f5ZbsgB63MdjZTFgsy
  
  ##### Compose:
@@ -41,6 +40,8 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 #### Android fundamentals
 - [ ] Android Life cycle https://www.javatpoint.com/android-life-cycle-of-activity
 - [ ] Remote configuration
+   Remote config allows you to change the behaviour of the app without having to release a new version. We have a config file for each version of the app so that we can independently change a config for a particular version that's live. Could be considered just another back-end data service defined inhouse. Eg. API Service - added_url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that 
+- [ ] - https://www.youtube.com/watch?v=pcnnbjAAIkI&t=9s
 - [ ] DB & Cloud Stuff
 
 ####  Architecture 
