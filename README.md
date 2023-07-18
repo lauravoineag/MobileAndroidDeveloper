@@ -68,7 +68,21 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] Git branching https://learngitbranching.js.org/
 - [ ] Accessibility https://developer.android.com/jetpack/compose/accessibility?authuser=1
 - [ ] AWS Essential Course
-- [ ] Remote config- it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
+- [ ] Remote config
+
+Remote config the problem (why)
+we want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores  
+
+How we use it
+every version of the apps we put on the stores has it's own version number - i.e. 4.150.0, 4.151.0, 4.151.1 etc.
+we put a unique copy of config up on the web for each version we release. each version of the app essentially looks for the config for it's own app version. android version 4.151.1 will look for something like android-4.151.1.json on the web.
+
+Each version of the app we release to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable bottom nav for a version of the app in live that doesn't contain the code for bottom nav, therefor the config for that version wont contain an "enableBottomNav" config.
+we can turn things on remotely - but we can also turn things off remotely if they go wrong! so if we were turn turn on downloads this week for the latest version and suddenly there was a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
+
+Remote config does allow us to kill a version of the app though! say if I wrote a bug in version 4.160.0 of the app, that meant that the app sent 1000000 requests to ibl an hour and it wasn't behind a feature flag like new downloads, then we really dont want that version of the app to continue being used. we can remotely say "turn the kill switch on for version 4.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using iplayer" and ibl wont be getting battered anymore
+
+- it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 
 # 2. Kotlin
