@@ -75,18 +75,19 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] Remote config https://www.youtube.com/watch?v=pcnnbjAAIkI  https://firebase.google.com/docs/remote-config/get-started?platform=ios
 
 * Remote config the problem (why)
-We want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores.
+    - We want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores.
 
-    How we use it
-Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
+* How we use it
+    - Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
 We put a unique copy of config up on the web for each version we release. Each version of the app essentially looks for the config for it's own app version. Android version 1.151.1 will look for something like android - 1.151.1.json on the web.
 
-    Each version of the app that gets released to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable Top Nav for a version of the app in live that doesn't contain the code for Top Nav, therefore the config for that version won't contain an "enableTopNav" config.
+* The benefit
+    - Each version of the app that gets released to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable Top Nav for a version of the app in live that doesn't contain the code for Top Nav, therefore the config for that version won't contain an "enableTopNav" config.
 We can turn things on remotely - but we can also turn things off remotely if they go wrong! So, if we were turn on a new feature this week for the latest version and suddenly there were a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
 
-    Remote config does allow us to kill a version of the app though! E.g. a bug is written in version 1.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like the new feature, then we really don't want that version of the app to continue being used. We can remotely say "turn the kill switch on for version 1.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service(a different department who is responsible for supplying information relevant to our new feature) won't be in so much trouble.
+    - Remote config does allow us to kill a version of the app though! E.g. a bug is written in version 1.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like the new feature, then we really don't want that version of the app to continue being used. We can remotely say "turn the kill switch on for version 1.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service(a different department who is responsible for supplying information relevant to our new feature) won't be in so much trouble.
 
-    Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
+    - Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 
 # 2. Kotlin
@@ -102,12 +103,12 @@ We can turn things on remotely - but we can also turn things off remotely if the
 # 3. Ticket stuff
 - [x] Swimming lanes https://www.oldstreetsolutions.com/jira-swimlanes-agile-boards
 - [x] 3 amigos - kick off 
-- last chance saloon to question if we should be doing the work, if we do the work how we'll do it and if the work is done how we'd test it 
-- is a meeting that is used to ensure everyone understands what a ticket's purpose is. The three amigos (3 friends) represent someone from delivery/project (like product owner or delivery manager), someone from test and someone from dev. At the end of the meeting everyone should be 100% certain on what the output of the ticket will be (a definition of done should have already been met in sprint planning and backlog refinement). It's really useful just to make certain that before you start a ticket, the world hasn't shifted in any big way and that testers will understand how to test what it is you're doing and product understand what the main value will be too
-- sometimes something will be planned in (usually integrating with another team's work) and we'll find out "actually they're not ready for us to integrate, I had a chat with the team this morning!"
-- or "yeah the way we thought we'd implement that won't work because the library has a bug in it"
-- or "we won't be able to test it because the test environment isn't ready yet"
-- all of those things would be rare for one single person to have knowledge of
+    - It's basically the last chance saloon to question if we should be doing the work, if we do the work how we'll do it and if the work is done how we'd test it. 
+    - It's a meeting that is used to ensure everyone understands what a ticket's purpose is. The three amigos (3 friends)is broken down into the following departments: delivery/project (like product owner or delivery manager and UX), someone from test and someone from dev. At the end of the meeting everyone should be 100% certain on what the output of the ticket will be (a definition of done should have already been met in sprint planning and backlog refinement). It's really useful just to make certain that before you start a ticket, the world hasn't shifted in any big way and that testers will understand how to test what it is you're doing and product understand what the main value will be too.
+    - Sometimes something will be planned in (usually integrating with another team's work) and we'll find out "actually they're not ready for us to integrate, I had a chat with the team this morning!"
+    - or "yeah the way we thought we'd implement that won't work because the library has a bug in it"
+    - or "we won't be able to test it because the test environment isn't ready yet"
+    - all of those things would be rare for one single person to have knowledge of
   
  - [ ] CI/CD
  - [ ] CI is continuous integration - GIT management - 
