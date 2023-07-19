@@ -75,7 +75,7 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] Remote config https://www.youtube.com/watch?v=pcnnbjAAIkI  https://firebase.google.com/docs/remote-config/get-started?platform=ios
 
 * Remote config the problem (why)
-    - We want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores.
+    - To be able to change the way apps look in terms of design and behave on the users' phones without needing them to update the app on one of the app stores.
 
 * How we use it
     - Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
