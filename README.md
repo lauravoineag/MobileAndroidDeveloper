@@ -3,9 +3,15 @@
 # 1. Compose
 
 #### Learned while pairing:
-- make small changes frequently in the UI 
-- responsive design - design solutions in responsive ways -sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column- don't add size to button - add the size in the parent/column
-- Design and Arhitecture -  Think about what responsibilities each class has - The Responsibilities are triggering all the input -OOP Principles
+- Make small changes frequently in the UI to see how components line up together (use Preview and SplitView) 
+- Responsive design - design solutions in responsive ways - sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column - don't add size to button - size in the parent/column
+- Design and Arhitecture -  Think about the responsibilities of what each class has - The Responsibilities will trigger all the output - OOP Principles
+-  How to plan a UI ticket:
+   * There are 3 catgories:
+     1. Writing Componenets
+     2. Adding Behaviour
+     3. Adding Styling
+   * You start writing in this order because you want to see visually how the components align together, to then be able to add the behaviour for them and finally the styling of components. You add the styling at the end because the behaviour might affect the styling and styling may then have to be refactored
 
 
 #### Codelabs 
@@ -68,21 +74,21 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] Git branching https://learngitbranching.js.org/
 - [ ] Accessibility https://developer.android.com/jetpack/compose/accessibility?authuser=1
 - [ ] AWS Essential Course
-- [ ] Remote config
+- [ ] Remote config https://www.youtube.com/watch?v=pcnnbjAAIkI  https://firebase.google.com/docs/remote-config/get-started?platform=ios
 
 Remote config the problem (why)
-we want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores  
+We want to be able to change the way apps behave and look on users' phones without needing them to update the app on one of the app stores.
 
 How we use it
-every version of the apps we put on the stores has it's own version number - i.e. 4.150.0, 4.151.0, 4.151.1 etc.
-we put a unique copy of config up on the web for each version we release. each version of the app essentially looks for the config for it's own app version. android version 4.151.1 will look for something like android-4.151.1.json on the web.
+Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
+We put a unique copy of config up on the web for each version we release. Each version of the app essentially looks for the config for it's own app version. Android version 1.151.1 will look for something like android - 1.151.1.json on the web.
 
-Each version of the app we release to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable bottom nav for a version of the app in live that doesn't contain the code for bottom nav, therefor the config for that version won't contain an "enableBottomNav" config.
-We can turn things on remotely - but we can also turn things off remotely if they go wrong! so if we were turn on downloads this week for the latest version and suddenly there were a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
+Each version of the app that gets released to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable Top Nav for a version of the app in live that doesn't contain the code for Top Nav, therefore the config for that version won't contain an "enableTopNav" config.
+We can turn things on remotely - but we can also turn things off remotely if they go wrong! So, if we were turn on a new feature this week for the latest version and suddenly there were a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
 
-Remote config does allow us to kill a version of the app though! say a bug is written in version 4.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like new downloads, then we really don't want that version of the app to continue being used. we can remotely say "turn the kill switch on for version 4.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service won't be getting battered anymore
+Remote config does allow us to kill a version of the app though! E.g. a bug is written in version 1.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like the new feature, then we really don't want that version of the app to continue being used. We can remotely say "turn the kill switch on for version 1.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service(a different department who is responsible for supplying information relevant to our new feature) won't be in so much trouble.
 
-- it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
+Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 
 # 2. Kotlin
