@@ -13,6 +13,7 @@
      3. Adding Styling
    * You start writing in this order because you want to see visually how the components align together, to then be able to add the behaviour for them and finally the styling of components. You add the styling at the end because the behaviour might affect the styling and styling may then have to be refactored
 - Golden module - We apply the principles of the team's defined “golden module” to all the existing and future modules in the codebase. The “golden module” is the pattern we apply to all feature modules.It’s not a module _itself_ but it shows us a set of principles we apply when we write a module.
+- Two way binding = the same state - the same state that causes the state change will also trigger this on value change function which will update the state again
 
 #### Codelabs 
 - [ ] All https://developer.android.com/courses/fundamentals-training/toc-v2
