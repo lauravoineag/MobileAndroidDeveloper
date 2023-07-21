@@ -37,7 +37,7 @@
 - [ ] Back Stack - https://www.youtube.com/watch?v=MvIlVsXxXmY
 
 #### Videos 
-- [x] Compose basics video - speedy basics video - https://www.youtube.com/watch?v=6_wK_Ud8--0
+- [x] CThe Jetpack Compose Beginner Crash Course for 2023 - speedy basics video - https://www.youtube.com/watch?v=6_wK_Ud8--0
 
 #### Arhitecture
 https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
