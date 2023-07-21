@@ -134,3 +134,8 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
 - https://developer.android.com/studio/projects?authuser=1
 - https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?authuser=1
 
+
+
+ ##### Inspiration for project designs:
+https://dribbble.com/shots
+
