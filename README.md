@@ -67,6 +67,7 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] https://medium.com/swlh/understanding-mvvm-architecture-in-android-aa66f7e1a70b
 
 #### Testing:
+- [ ] Testing in Android https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq
 - [ ] https://developer.android.com/jetpack/compose/testing-cheatsheet
 - [ ] https://developer.android.com/jetpack/compose/testing
 - [ ] https://developer.android.com/codelabs/jetpack-compose-testing?authuser=1#1
