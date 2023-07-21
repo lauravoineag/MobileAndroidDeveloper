@@ -16,13 +16,15 @@
 - Two way binding = the same state - the same state that causes the state change will also trigger this on value change function which will update the state again
 
 #### Videos 
-1. - [x] The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video - https://www.youtube.com/watch?v=6_wK_Ud8--0
-   - [ ] Jetpack Compose https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC
-2. - [ ] Android Basics 2023 - https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm
-        - [x] Activities & the Activity Lifecycle  - https://www.youtube.com/watch?v=SJw3Nu_h8kk
+1. - [x] The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video - [****](https://www.youtube.com/watch?v=6_wK_Ud8--0)
+   - [ ] Jetpack Compose [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+2. - [ ] Android Basics 2023 - [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
+        - [x] Activities & the Activity Lifecycle  - [****](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
         - [ ] 
-3. - [ ] Android Fundamentals for Beginners - https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX
-
+3. - [ ] Android Fundamentals for Beginners - [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
+4. - [ ] Gradle for Beginners - [****](https://www.youtube.com/watch?v=o0M4f5djJTQ)
+5. - [ ] Convert Figma Designs to Jetpack Compose Code With This FREE Plugin [****](https://www.youtube.com/watch?v=byOmrmXG4yQ)
+ 
 #### Codelabs 
 - [ ] All https://developer.android.com/courses/fundamentals-training/toc-v2
 - [ ] Codelab basics https://developer.android.com/codelabs/jetpack-compose-basics#12
@@ -40,6 +42,11 @@
 - [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] MVVM NewsApp, Retrofit, Room, Coroutines, Navigation Components https://www.youtube.com/playlist?list=PLQkwcJG4YTCRF8XiCRESq1IFFW8COlxYJ
 
+#####Android Projects
+- [ ] https://www.youtube.com/playlist?list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E
+- [ ] Pokédex App with Jetpack Compose https://www.youtube.com/playlist?list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m
+- [ ] MVVM Spotify Clone https://www.youtube.com/playlist?list=PLQkwcJG4YTCT-lTlkOmE-PpRkuyNXq6sW
+- [ ] 
  ##### Extras (These are only if you are especially interested)
 - [ ] Gradle (how we build the app, just this one video) https://www.youtube.com/watch?v=GjPS4xDMmQY
 - [ ] Navigation - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9VpBMZUS9geQtc5RJ2RsUd
