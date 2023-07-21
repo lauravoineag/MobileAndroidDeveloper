@@ -15,6 +15,13 @@
 - Golden module - We apply the principles of the team's defined “golden module” to all the existing and future modules in the codebase. The “golden module” is the pattern we apply to all feature modules.It’s not a module _itself_ but it shows us a set of principles we apply when we write a module.
 - Two way binding = the same state - the same state that causes the state change will also trigger this on value change function which will update the state again
 
+#### Videos 
+1. - [x] The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video - https://www.youtube.com/watch?v=6_wK_Ud8--0
+   - [ ] Jetpack Compose https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC
+2. - [ ] Android Basics 2023 - https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm
+        - [x] Activities & the Activity Lifecycle  - https://www.youtube.com/watch?v=SJw3Nu_h8kk
+        - [ ] 
+
 #### Codelabs 
 - [ ] All https://developer.android.com/courses/fundamentals-training/toc-v2
 - [ ] Codelab basics https://developer.android.com/codelabs/jetpack-compose-basics#12
@@ -35,9 +42,6 @@
 - [ ] Navigation - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9VpBMZUS9geQtc5RJ2RsUd
 - [ ] More navigation - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-vin7SvgoaR6wu24sAw-sE
 - [ ] Back Stack - https://www.youtube.com/watch?v=MvIlVsXxXmY
-
-#### Videos 
-- [x] CThe Jetpack Compose Beginner Crash Course for 2023 - speedy basics video - https://www.youtube.com/watch?v=6_wK_Ud8--0
 
 #### Arhitecture
 https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
@@ -97,6 +101,7 @@ We can turn things on remotely - but we can also turn things off remotely if the
 #### Android Kotlin courses
 - [ ] https://developer.android.com/courses/android-basics-kotlin/course
 - [ ] https://developer.android.com/kotlin
+- [ ] KOTLIN NEWBIE TO PRO https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9
 
 - [x]  Pluralsight (one course - 3 days;  course 2 - 3 days)  - 6 days of Pluralsight - Kotlin Fundamentals by Kevin Jones - done(2 weeks) https://app.pluralsight.com/channels/details/f7146668-d19c-4661-949c-cffa6a6556f5
     Kotlin Fundamentals by Kevin Jones
