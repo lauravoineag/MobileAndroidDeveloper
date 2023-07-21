@@ -38,6 +38,7 @@
  ##### Architecture:
 - [ ] MVVM Shopping List - https://www.youtube.com/playlist?list=PLQkwcJG4YTCT0RouHZ6sQlE4JE6VyD2zO
 - [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
+- [ ] MVVM NewsApp, Retrofit, Room, Coroutines, Navigation Components https://www.youtube.com/playlist?list=PLQkwcJG4YTCRF8XiCRESq1IFFW8COlxYJ
 
  ##### Extras (These are only if you are especially interested)
 - [ ] Gradle (how we build the app, just this one video) https://www.youtube.com/watch?v=GjPS4xDMmQY
