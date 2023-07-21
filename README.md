@@ -134,7 +134,8 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
 - https://developer.android.com/studio/projects?authuser=1
 - https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?authuser=1
 
-Course syllabus Jetpack Compose:
+  ##### Course syllabus Jetpack Compose:
+  https://www.udemy.com/course/mastering-jetpack-compose/
 - Kotlin Basics and OOP
   -- The Basics
   -- OOP
