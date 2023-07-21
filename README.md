@@ -21,6 +21,7 @@
 2. - [ ] Android Basics 2023 - https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm
         - [x] Activities & the Activity Lifecycle  - https://www.youtube.com/watch?v=SJw3Nu_h8kk
         - [ ] 
+3. - [ ] Android Fundamentals for Beginners - https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX
 
 #### Codelabs 
 - [ ] All https://developer.android.com/courses/fundamentals-training/toc-v2
@@ -35,6 +36,7 @@
 - [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc94tpHND8pW8Qt8ZfT1a4cq
 
  ##### Architecture:
+- [ ] MVVM Shopping List - https://www.youtube.com/playlist?list=PLQkwcJG4YTCT0RouHZ6sQlE4JE6VyD2zO
 - [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 
  ##### Extras (These are only if you are especially interested)
