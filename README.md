@@ -134,7 +134,23 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
 - https://developer.android.com/studio/projects?authuser=1
 - https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?authuser=1
 
-
+Course syllabus Jetpack Compose:
+- Kotlin Basics and OOP
+  -- The Basics
+  -- OOP
+  -- Data Structures
+  -- High Order Functions
+- Composables
+  -- Basics (Buttons, Images, Texts, TextField)
+  -- More Composables (Radio Button, Checkbox, Indicators)
+  -- Layouts(Box, Row, Column, Scaffolds, Cards)
+  -- Lazy Composables (Lazy Col, Rows, Grids)
+- State Management
+- Navigation
+- MVVM Arhitecture
+   -- MVVM Concept
+   -- ROOM Database
+   -- Retrofit - Fetching Data from APi
 
  ##### Inspiration for project designs:
 https://dribbble.com/shots
