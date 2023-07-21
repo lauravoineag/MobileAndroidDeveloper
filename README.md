@@ -26,21 +26,21 @@
 5. - [ ] Convert Figma Designs to Jetpack Compose Code With This FREE Plugin [****](https://www.youtube.com/watch?v=byOmrmXG4yQ)
  
 #### Codelabs 
-- [ ] All https://developer.android.com/courses/fundamentals-training/toc-v2
-- [ ] Codelab basics https://developer.android.com/codelabs/jetpack-compose-basics#12
+- [ ] All [****](https://developer.android.com/courses/fundamentals-training/toc-v2)
+- [ ] Codelab basics [****](https://developer.android.com/codelabs/jetpack-compose-basics#12)
 
 #### MAD skills videos -  do Android basics code labs before watching these
-- [ ] Kotlin in Android - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc98e0f5ZbsgB63MdjZTFgsy
+- [ ] Kotlin in Android - [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc98e0f5ZbsgB63MdjZTFgsy)
  
  ##### Compose:
-- [ ] https://developer.android.com/courses/jetpack-compose/course?gclid=EAIaIQobChMIlKnfpeCcgAMVQotoCR2BfggUEAAYASAAEgLyfvD_BwE&gclsrc=aw.ds
-- [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-CG9riunK996aI6cRhXFDC
-- [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc94tpHND8pW8Qt8ZfT1a4cq
+- [ ] [****](https://developer.android.com/courses/jetpack-compose/course?gclid=EAIaIQobChMIlKnfpeCcgAMVQotoCR2BfggUEAAYASAAEgLyfvD_BwE&gclsrc=aw.ds)
+- [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-CG9riunK996aI6cRhXFDC)
+- [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc94tpHND8pW8Qt8ZfT1a4cq)
 
  ##### Architecture:
-- [ ] MVVM Shopping List - https://www.youtube.com/playlist?list=PLQkwcJG4YTCT0RouHZ6sQlE4JE6VyD2zO
-- [ ] https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
-- [ ] MVVM NewsApp, Retrofit, Room, Coroutines, Navigation Components https://www.youtube.com/playlist?list=PLQkwcJG4YTCRF8XiCRESq1IFFW8COlxYJ
+- [ ] MVVM Shopping List - [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCT0RouHZ6sQlE4JE6VyD2zO)
+- [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX)
+- [ ] MVVM NewsApp, Retrofit, Room, Coroutines, Navigation Components [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCRF8XiCRESq1IFFW8COlxYJ)
 
 #####Android Projects
 - [ ] https://www.youtube.com/playlist?list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E
