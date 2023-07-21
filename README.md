@@ -37,34 +37,13 @@
 - [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-CG9riunK996aI6cRhXFDC)
 - [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc94tpHND8pW8Qt8ZfT1a4cq)
 
- ##### Architecture:
+ ##### Architecture Videos:
 - [ ] MVVM Shopping List - [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCT0RouHZ6sQlE4JE6VyD2zO)
 - [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX)
 - [ ] MVVM NewsApp, Retrofit, Room, Coroutines, Navigation Components [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCRF8XiCRESq1IFFW8COlxYJ)
+- [ ] [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX)
 
-#####Android Projects
-- [ ] https://www.youtube.com/playlist?list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E
-- [ ] Pokédex App with Jetpack Compose https://www.youtube.com/playlist?list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m
-- [ ] MVVM Spotify Clone https://www.youtube.com/playlist?list=PLQkwcJG4YTCT-lTlkOmE-PpRkuyNXq6sW
-- [ ] 
- ##### Extras (These are only if you are especially interested)
-- [ ] Gradle (how we build the app, just this one video) https://www.youtube.com/watch?v=GjPS4xDMmQY
-- [ ] Navigation - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9VpBMZUS9geQtc5RJ2RsUd
-- [ ] More navigation - https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-vin7SvgoaR6wu24sAw-sE
-- [ ] Back Stack - https://www.youtube.com/watch?v=MvIlVsXxXmY
-
-#### Arhitecture
-https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
-
-#### UI reading 
-- [ ] Component Design - https://atomicdesign.bradfrost.com/table-of-contents/
-
-#### Android fundamentals
-- [ ] Android Life cycle https://www.javatpoint.com/android-life-cycle-of-activity
-- [ ] - https://www.youtube.com/watch?v=pcnnbjAAIkI&t=9s
-- [ ] DB & Cloud Stuff
-
-####  Architecture 
+####  Architecture Intro: 
 - [ ] Guide to app https://developer.android.com/topic/architecture https://developer.android.com/topic/architecture#unidirectional-data-flow
 -  Coding patterns - overview of software and Architecture 
 - [ ] https://developer.android.com/guide/components/activities/intro-activities
@@ -74,15 +53,35 @@ https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8GZWCbUm3tBXKeqIi3rcVX
 - [ ] https://developer.android.com/topic/libraries/architecture/viewmodel
 - [ ] https://medium.com/swlh/understanding-mvvm-architecture-in-android-aa66f7e1a70b
 
+##### Android Projects
+- [ ] [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E)
+- [ ] Pokédex App with Jetpack Compose [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m)
+- [ ] MVVM Spotify Clone [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCT-lTlkOmE-PpRkuyNXq6sW)
+- [ ] 
+ ##### Extras (These are only if you are especially interested)
+- [ ] Gradle (how we build the app, just this one video) [****](https://www.youtube.com/watch?v=GjPS4xDMmQY)
+- [ ] Navigation - [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9VpBMZUS9geQtc5RJ2RsUd)
+- [ ] More navigation - [****](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-vin7SvgoaR6wu24sAw-sE)
+- [ ] Back Stack - [****](https://www.youtube.com/watch?v=MvIlVsXxXmY)
+
+#### UI reading 
+- [ ] Component Design - [****](https://atomicdesign.bradfrost.com/table-of-contents/)
+
+#### Android fundamentals
+- [ ] Android Life cycle [****](https://www.javatpoint.com/android-life-cycle-of-activity)
+- [ ] [****](https://www.youtube.com/watch?v=pcnnbjAAIkI&t=9s)
+- [ ] DB & Cloud Stuff
+
+
 #### Testing:
-- [ ] Testing in Android https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq
+- [ ] Testing in Android [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq)
 - [ ] https://developer.android.com/jetpack/compose/testing-cheatsheet
 - [ ] https://developer.android.com/jetpack/compose/testing
 - [ ] https://developer.android.com/codelabs/jetpack-compose-testing?authuser=1#1
 - [ ] https://youtu.be/kdwofTaEHrs
 
 #### Components:
-- [ ] Lazy grid https://youtu.be/eC-hNDgUd1Y
+- [ ] Lazy grid [****](https://youtu.be/eC-hNDgUd1Y)
 
 #### Random
 - [ ] use a screenreader https://support.google.com/accessibility/android/answer/6007100?hl=en-GB
