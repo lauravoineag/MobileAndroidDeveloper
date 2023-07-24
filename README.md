@@ -21,9 +21,9 @@
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
         - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
               <details markdown='1'><summary>Learning</summary>
-              <p>An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact with
+              <p>An activity is the entry point of your application, a container for one or multiple screens in your app OR a Unit of your app where users interact
               <p> Activities contain info:
-              - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a use is coming from another app and click your app then an activity is a component that directly gets launched from that action
+              - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a use is coming from another app and click your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle)
               
 3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
 4. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
