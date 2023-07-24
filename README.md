@@ -18,12 +18,15 @@
 #### Videos 
 1. - [x] [The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video](https://www.youtube.com/watch?v=6_wK_Ud8--0)
    - [ ] [Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+         
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
         - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
               <details markdown='1'><summary>Learning</summary>
               <p>An activity is the entry point of your application, a container for one or multiple screens in your app OR a Unit of your app where users interact
               <p> Activities contain info:
-              - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a use is coming from another app and click your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle)
+              - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a user is coming from another app and clicks your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle)
+              
+      - [x] [Tasks,Back Stack & Launch Modes](https://www.youtube.com/watch?v=Z0AzoFOiH9c&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=2)
               
 3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
 4. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
