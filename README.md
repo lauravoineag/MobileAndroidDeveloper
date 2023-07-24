@@ -33,6 +33,7 @@
             <img width="261" alt="Screenshot 2023-07-24 at 08 46 06" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2b4f6103-0001-497d-98dc-0f0c07184f22">
             <p> A **task** is the whole thing - represents the collection of multiple sceeens/activities that belong together</p>
             <img width="343" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1780fefe-6f0a-48d2-adf0-6a13a56a173c">
+            <p> Backstack is how these screens are arranged and the tasks combines all these screens into one unit</p>
             
  
 
