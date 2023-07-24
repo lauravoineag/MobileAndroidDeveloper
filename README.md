@@ -22,11 +22,24 @@
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
         - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
               <details markdown='1'><summary>Learning</summary>
-              <p>An activity is the entry point of your application, a container for one or multiple screens in your app OR a Unit of your app where users interact
+              <p> An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact, generally it's the entry point of your application
               <p> Activities contain info:
               - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a user is coming from another app and clicks your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle)
               
       - [x] [Tasks,Back Stack & Launch Modes](https://www.youtube.com/watch?v=Z0AzoFOiH9c&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=2)
+            <details markdown='1'><summary>Learning</summary>
+            <p> Every app has its **backstack** - the stack of screens or activities. Add Backstack when you open different applications - they get added to the backstack or remove backstack as soon as user clicks the back button.</p>
+             <img width="261" alt="Adding" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/c0e12432-6058-4d66-9422-d46a9219b440">
+            <img width="261" alt="Screenshot 2023-07-24 at 08 46 06" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2b4f6103-0001-497d-98dc-0f0c07184f22">
+            <p> A **task** is the whole thing - represents the collection of multiple sceeens/activities that belong together</p>
+            <img width="343" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1780fefe-6f0a-48d2-adf0-6a13a56a173c">
+            
+ 
+
+
+
+
+
               
 3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
 4. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
