@@ -38,10 +38,11 @@
             <p> **Launch modes** set the behaviour - what should happen when a new activity is pushed on the backstack.
             <p> **Standard** launchmode (don't change anything). When you open 2 links (2 different apps) in google chrome windows you generate 2 browse activities and they will be pushed to backstack. When we say Android open this activity, a new instance ofthat activity will be pushed on backstack.</p>
             <img width="614" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2047557a-31b9-4dee-a987-29e0f89c21db">
-            <p> **SingleTop** launchmode The user goes from another app to Chrome - if there is an existing app with an activity launched that we want then we won't add another activity on top but send the user to existing one. You want the user to go back to the same activity.
+            <p> **Single Top** launchmode The user goes from another app to Chrome - if there is an existing app with an activity launched that we want then we won't add another activity on top but send the user to existing one. You want the user to go back to the same activity.
             <p>**Single Task** launchmode single task assigned to Browser Activity (via Bookmark) it will make sure that new instances will be launched inside a completely separate task.
             <p> Why not send to already existing activity? You only want to open a specific link(LinkedIn) and when the user goes back they want to go back to their activity(LinkedIn) and not Bookmark activity. The already existing taks(Browser Activity) has already existing backstack & if user goes back they will not go back to where they want(their initial app- LinkedIn) but back to Bookmark activity.</p>
             <img width="918" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/5b85e44c-f532-41c9-a1f0-ea1bfa829589">
+            <p>**Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
  
 
 
