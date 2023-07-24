@@ -44,7 +44,7 @@
             <img width="918" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/5b85e44c-f532-41c9-a1f0-ea1bfa829589">
             <p>**Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
  
-
+    - [x] [ViewModels & Configuration Changes](youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
 
  
 
