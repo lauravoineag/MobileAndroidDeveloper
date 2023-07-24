@@ -46,8 +46,7 @@
  
       - [x] [ViewModels & Configuration Changes](youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
           <details markdown='1'><summary>Learning</summary>
-            
-          <p>**MVVM** The View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI</p>
+          <p> MVVM - The View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI</p>
           <img width="1124" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d2b5ad36-dc14-49e7-b024-759aa24fbfe6">
 
 
