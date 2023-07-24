@@ -20,7 +20,7 @@
    - [ ] [Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
          
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
-        - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
+      - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
               <details markdown='1'><summary>Learning</summary>
               <p> An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact, generally it's the entry point of your application
               <p> Activities contain info:
@@ -44,7 +44,14 @@
             <img width="918" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/5b85e44c-f532-41c9-a1f0-ea1bfa829589">
             <p>**Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
  
-    - [x] [ViewModels & Configuration Changes](youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
+      - [x] [ViewModels & Configuration Changes](youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
+          <details markdown='1'><summary>Learning</summary>
+            
+          <p>**MVVM** The View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI</p>
+          <img width="1124" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d2b5ad36-dc14-49e7-b024-759aa24fbfe6">
+
+
+
 
  
 
