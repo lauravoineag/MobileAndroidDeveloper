@@ -61,6 +61,10 @@ Overview
         <p> Whenever something has to do with Real Data Source(DB) VM sends new data to Model the Model saves it and notifies the UI again. 
         <p> 2. No Model Involved - The VM receives events & actions from the View when there is an User Action/UI Action(Button Click,Swipe different page) Eg VM Changes the state - User clicks to change colour bakground (UI -> sends UserAction to ViewModel so the VM can react to it) that doesn't need the Model since the UI action would be the button click, the VM updates the state that the background colour changed and notifies the UI so the UI can show the background colour</p>
           <img width="1124" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d2b5ad36-dc14-49e7-b024-759aa24fbfe6">
+        <p> Configuration change - screen rotation, user changes language, theme - app needs to update all colours.How Android deals with these changes is by re-creating the whole activity(current instace of activity distroyed- lifecycle moves to onDestroied state and when the rotation finished it will start with a new activity). The VM will also be re-created
+        <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9f59460e-a900-4679-820a-0609d9ab8507">
+          <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/7169cd75-3396-4d04-9338-61e40bf35951">
+
 
 
 
