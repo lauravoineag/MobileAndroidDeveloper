@@ -2,11 +2,11 @@
 
 Overview
 
-[1. Compose](/1.Compose/)
+[1. Compose](1.Compose)
 
-[2. Kotlin](/1.Kotlin/)
+[2. Kotlin](1.Kotlin)
 
-#1.Compose
+# 1. Compose
 
 #### Learned while pairing:
 - Make small changes frequently in the UI to see how components line up together (use Preview and SplitView) 
