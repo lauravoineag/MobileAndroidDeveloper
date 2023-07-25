@@ -217,4 +217,4 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
 
  ##### Inspiration for project designs:
 https://dribbble.com/shots
-
+https://daringfireball.net/projects/markdown/syntax#overview
