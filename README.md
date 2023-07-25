@@ -2,9 +2,9 @@
 
 Overview
 
-[1. Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#1.Compose)
+[1. Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Compose)
 
-[1. Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#2.Kotlin)
+[2.Kotlin](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Kotlin)
 
 # 1.Compose
 
