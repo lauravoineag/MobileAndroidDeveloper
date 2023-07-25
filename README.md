@@ -66,7 +66,7 @@ Overview
         <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9f59460e-a900-4679-820a-0609d9ab8507">
           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/7169cd75-3396-4d04-9338-61e40bf35951">
           <p>Eg below where on screen rotation the background is changed
-          Inheriting from ViewModel it will create a component which will outlive the life cycle of its screen(activity) which has a lifecycle that ends when we rotated the device then this VM that it inherits from will outlive and won't be distroyed when the activity will be distroye. It will be distroyed when use pops the activity from the backstack(back button)</p>
+          Inheriting from ViewModel it will create a component which will outlive the life cycle of its screen(activity). The activity has a lifecycle that ends when we rotated the device then this VM that it inherits from will outlive and won't be distroyed when the activity will be distroye. It will be distroyed when use pops the activity from the backstack(back button)</p>
           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/eb1a8034-97cf-4462-921b-5684a5095101">
           <p>The VM won't be destroyed because of configuration changes we need to use the Android way of initialising the View Models</p>
           <img width="738" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6ed0c59f-deb4-4035-9d66-d70e12f83ae7">
