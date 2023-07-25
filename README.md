@@ -70,6 +70,10 @@ Overview
           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/eb1a8034-97cf-4462-921b-5684a5095101">
           <p>The VM won't be destroyed because of configuration changes we need to use the Android way of initialising the View Models</p>
           <img width="738" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6ed0c59f-deb4-4035-9d66-d70e12f83ae7">
+          <p> View Model factory - a class that defines how our viewModel instance is to created with the Android ViewModel</p>
+          <img width="800" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6660238b-6370-4ee6-abaf-e73444e0ae5e">
+
+
 
 
 
