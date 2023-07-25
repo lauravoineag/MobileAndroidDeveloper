@@ -2,7 +2,7 @@
 
 Overview
 
-1. Compose[@Compose]
+1. [Compose]([@Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#1.Compose))
 
 [2. Kotlin](1.Kotlin)
 
