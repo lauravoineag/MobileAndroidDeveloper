@@ -2,7 +2,7 @@
 
 Overview
 
-[1. Compose](@Compose)
+1. Compose[@Compose]
 
 [2. Kotlin](1.Kotlin)
 
