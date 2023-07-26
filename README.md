@@ -83,7 +83,8 @@ Overview
 
  
 
-
+Android SDK
+AndroidManifest.xml
 
 What is vital to learn -   knowing the application level components (Activity, Application, Service, Broadcast Receiver, Content Provider)
 [Application](https://developer.android.com/reference/android/app/Application)
