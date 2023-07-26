@@ -54,7 +54,7 @@ Overview
             <img width="918" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/5b85e44c-f532-41c9-a1f0-ea1bfa829589">
             <p>**Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
  
-      - [x] [ViewModels & Configuration Changes](youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
+      - [x] [ViewModels & Configuration Changes](https://www.youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=5)
           <details markdown='1'><summary>Learning</summary>
           <p> **MVVM **
         <p> 1. Generally, the View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI.The View Model will convert data from Model -> into a format that UI understands and as soon as that happens the View Model will then automatically notify the UI that there is a change so that the UI can update and show new info.
