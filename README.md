@@ -87,10 +87,10 @@ Overview
 
 
 
-              
-3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
-4. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
-5. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
+3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
+4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
+5. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
+6. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
  
 #### Codelabs 
 - [ ] [All](https://developer.android.com/courses/fundamentals-training/toc-v2)
