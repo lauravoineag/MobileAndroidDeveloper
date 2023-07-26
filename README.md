@@ -86,7 +86,10 @@ Overview
 
 
 What is vital to learn -   knowing the application level components (Activity, Application, Service, Broadcast Receiver, Content Provider)
-Application (https://developer.android.com/reference/android/app/Application)
+[Application](https://developer.android.com/reference/android/app/Application)
+[Services](https://developer.android.com/guide/components/services)
+[Broadcast receiver](https://developer.android.com/guide/components/broadcasts)
+[Content Provider](https://developer.android.com/guide/topics/providers/content-providers#:~:text=Content%20providers%20are%20the%20standard,as%20illustrated%20in%20figure%201)
 
 3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
 4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
