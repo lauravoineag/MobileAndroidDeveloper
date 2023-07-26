@@ -62,7 +62,7 @@ Overview
         <p> Whenever something has to do with Real Data Source(DB) VM sends new data to Model the Model saves it and notifies the UI again. 
         <p> 2. No Model! - VM has the responsibility to chage the state and notify UI - When user clicks to change bakground colour we call VM. (UI -> sends UserAction to ViewModel so the VM can react to it) that doesn't need the Model since the UI action would be the button click, the VM updates the state that the background colour changed and notifies the UI so the UI can show the background colour. VM receives a User Action/UI Action/Event from the UI(View) -Button Click,Swipe different page</p>
           <img width="1124" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d2b5ad36-dc14-49e7-b024-759aa24fbfe6">
-        <p> Configuration change - screen rotation, user changes language, theme - app needs to update all colours.How Android deals with these changes is by re-creating the whole activity(current instace of activity distroyed- lifecycle moves to onDestroied state and when the rotation finished it will start with a new activity). The VM will also be re-created.
+        <p> Configuration change - screen rotation, user changes language, theme - app needs to update all colours.How Android deals with these changes is by re-creating the whole activity(current instace of activity distroyed- lifecycle moves to onDestroyed state and when the rotation finished it will start with a new activity). The VM will also be re-created.
         <p> Eg below where on screen rotation the background is not changed </p>
         <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9f59460e-a900-4679-820a-0609d9ab8507">
           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/7169cd75-3396-4d04-9338-61e40bf35951">
@@ -74,13 +74,16 @@ Overview
           <p> View Model factory - a class that defines how our viewModel instance is to created with the Android ViewModel</p>
           <img width="800" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6660238b-6370-4ee6-abaf-e73444e0ae5e">
 
+     - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
+
+3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
+4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
+5. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
+6. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
 
 
-
-
-
-
-Android SDK
+ List
+ Android SDK
 AndroidManifest.xml - and they all (broadcast receiver doesn't have to be) are defined in an applications AndroidManifest.xml file too
 eg.
 <manifest>
@@ -98,11 +101,6 @@ What is vital to learn -   knowing the application level components (Activity, A
 [Broadcast receiver](https://developer.android.com/guide/components/broadcasts)
 [Content Provider](https://developer.android.com/guide/topics/providers/content-providers#:~:text=Content%20providers%20are%20the%20standard,as%20illustrated%20in%20figure%201)
 
-3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
-4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
-5. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
-6. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
- 
 #### Codelabs 
 - [ ] [All](https://developer.android.com/courses/fundamentals-training/toc-v2)
 - [ ] [Codelab basics](https://developer.android.com/codelabs/jetpack-compose-basics#12)
