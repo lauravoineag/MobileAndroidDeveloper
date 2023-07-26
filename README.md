@@ -79,12 +79,17 @@ Overview
 
 
 
-
-
- 
-
 Android SDK
-AndroidManifest.xml
+AndroidManifest.xml - and they all (broadcast receiver doesn't have to be) are defined in an applications AndroidManifest.xml file too
+eg.
+<manifest>
+   <application ...> <- android.app.Application definition
+      <activity ...> <- android.app.Activity definition
+      <receiver ...> <- Broadcast receiver definition
+      <service ...> <- Service definition
+      <provider ...> <- Content provider definition
+   </application>
+</manifest>
 
 What is vital to learn -   knowing the application level components (Activity, Application, Service, Broadcast Receiver, Content Provider)
 [Application](https://developer.android.com/reference/android/app/Application)
