@@ -81,7 +81,7 @@ Overview
 5. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
 6. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
 
-
+https://developer.android.com/samples
  List
  Android SDK
 AndroidManifest.xml - and they all (broadcast receiver doesn't have to be) are defined in an applications AndroidManifest.xml file too
