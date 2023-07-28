@@ -14,7 +14,7 @@ Organising:
 1. - [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)*
 
 
- #### Learned while pairing:
+#### Learned while pairing:
 <details>
 <summary>Useful information</summary>
   
@@ -53,47 +53,46 @@ Organising:
          
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
       - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
-              <details markdown='1'><summary>Learning</summary>
-              <p> An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact, generally it's the entry point of your application
-              <p> Activities contain info:
-              - if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a user is coming from another app and clicks your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle)
-              
+            <details><summary>Summary</summary>
+           * An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact, generally it's the entry point of your app
+           * Activities contain info: if it's currently active on the screen, if it's in the background, serve as an entry pointo your app e.g. if a user is coming from another app and clicks your app then an activity is a component that directly gets launched from that action. More info [here](https://developer.android.com/guide/components/activities/activity-lifecycle) 
+            
       - [x] [Back Stack, Tasks & Launch Modes](https://www.youtube.com/watch?v=Z0AzoFOiH9c&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=2)
-            <details markdown='1'><summary>Learning</summary>
-            <p> **Backstack** - are a stack ofscreens/activities and how tese are arranged. Add Backstack when you open different applications - they get added to the backstack or remove backstack as soon as user clicks the back button or closes applications.</p>
-             <img width="261" alt="Adding" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/c0e12432-6058-4d66-9422-d46a9219b440">
-            <img width="261" alt="Screenshot 2023-07-24 at 08 46 06" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2b4f6103-0001-497d-98dc-0f0c07184f22">
-            <p> A **task** is the whole thing - represents the collection of multiple sceeens/activities that belong together</p>
+            <details><summary>Summary</summary>
+           * **Backstack** - are a stack ofscreens/activities and how tese are arranged. Add Backstack when you open different applications - they get added to the backstack or remove backstack as soon as user clicks the back button or closes applications.
+           <img width="261" alt="Adding" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/c0e12432-6058-4d66-9422-d46a9219b440">
+           <img width="261" alt="Screenshot 2023-07-24 at 08 46 06" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2b4f6103-0001-497d-98dc-0f0c07184f22">
+           
+           * A **task** is the whole thing - represents the collection of multiple sceeens/activities that belong together.
             <img width="343" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1780fefe-6f0a-48d2-adf0-6a13a56a173c">
-            <p> Backstack is how these screens are arranged and the tasks combines all these screens into one unit. When you remove all backstacks from one task it stops being a task.</p>
+           * Backstack is how these screens are arranged and the tasks combines all these screens into one unit. When you remove all backstacks from one task it stops being a task.
             ![image](https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/b4949ce4-915a-4fa3-a2a0-99f8587a28a0)
-            <p> **Launch modes** set the behaviour - what should happen when a new activity is pushed on the backstack.
-            <p> **Standard** launchmode (don't change anything). When you open 2 links (2 different apps) in google chrome windows you generate 2 browse activities and they will be pushed to backstack. When we say Android open this activity, a new instance ofthat activity will be pushed on backstack.</p>
+
+           * **Launch modes** set the behaviour - what should happen when a new activity is pushed on the backstack.
+           * **Standard** launchmode (don't change anything). When you open 2 links (2 different apps) in google chrome windows you generate 2 browse activities and they will be pushed to backstack. When we say Android open this activity, a new instance ofthat activity will be pushed on backstack.
             <img width="614" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2047557a-31b9-4dee-a987-29e0f89c21db">
-            <p> **Single Top** launchmode The user goes from another app to Chrome - if there is an existing app with an activity launched that we want then we won't add another activity on top but send the user to existing one. You want the user to go back to the same activity.
-            <p>**Single Task** launchmode single task assigned to Browser Activity (via Bookmark) it will make sure that new instances will be launched inside a completely separate task.
-            <p> Why not send to already existing activity? You only want to open a specific link(LinkedIn) and when the user goes back they want to go back to their activity(LinkedIn) and not Bookmark activity. The already existing taks(Browser Activity) has already existing backstack & if user goes back they will not go back to where they want(their initial app- LinkedIn) but back to Bookmark activity.</p>
+           * **Single Top** launchmode The user goes from another app to Chrome - if there is an existing app with an activity launched that we want then we won't add another activity on top but send the user to existing one. You want the user to go back to the same activity.
+           * **Single Task** launchmode single task assigned to Browser Activity (via Bookmark) it will make sure that new instances will be launched inside a completely separate task.
+           * Why not send to already existing activity? You only want to open a specific link(LinkedIn) and when the user goes back they want to go back to their activity(LinkedIn) and not Bookmark activity. The already existing taks(Browser Activity) has already existing backstack & if user goes back they will not go back to where they want(their initial app- LinkedIn) but back to Bookmark activity.</p>
             <img width="918" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/5b85e44c-f532-41c9-a1f0-ea1bfa829589">
-            <p>**Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
+           * **Single Instance** launchmode will also launch a different task independent of the previous active taks but the difference is this new Browser activity which was opened is completely isolated so inside it you are not allowed to open any other activities (payment app paypal)and the user cannot interfere with other apps while on it(security risk)</p>
  
       - [x] [ViewModels & Configuration Changes](https://www.youtube.com/watch?v=9sqvBydNJSg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=5)
-            
-          <details markdown='1'><summary>Learning</summary>
-          <p> **MVVM **
-        <p> 1. Generally, the View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI.The View Model will convert data from Model -> into a format that UI understands and as soon as that happens the View Model will then automatically notify the UI that there is a change so that the UI can update and show new info.
-        <p> Whenever something has to do with Real Data Source(DB) VM sends new data to Model the Model saves it and notifies the UI again. 
-        <p> 2. No Model! - VM has the responsibility to chage the state and notify UI - When user clicks to change bakground colour we call VM. (UI -> sends UserAction to ViewModel so the VM can react to it) that doesn't need the Model since the UI action would be the button click, the VM updates the state that the background colour changed and notifies the UI so the UI can show the background colour. VM receives a User Action/UI Action/Event from the UI(View) -Button Click,Swipe different page</p>
+            <details><summary>Summary</summary>
+           * **MVVM**
+           * 1. Generally, the View Model's job is to take the raw data from Model and bring it into a new format easy to display in the UI.The View Model will convert data from Model -> into a format that UI understands and as soon as that happens the View Model will then automatically notify the UI that there is a change so that the UI can update and show new info. Whenever something has to do with Real Data Source(DB) VM sends new data to Model the Model saves it and notifies the UI again. 
+           * 2. No Model! - VM has the responsibility to chage the state and notify UI - When user clicks to change bakground colour we call VM. (UI -> sends UserAction to ViewModel so the VM can react to it) that doesn't need the Model since the UI action would be the button click, the VM updates the state that the background colour changed and notifies the UI so the UI can show the background colour. VM receives a User Action/UI Action/Event from the UI(View) -Button Click,Swipe different page
           <img width="1124" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d2b5ad36-dc14-49e7-b024-759aa24fbfe6">
-        <p> Configuration change - screen rotation, user changes language, theme - app needs to update all colours.How Android deals with these changes is by re-creating the whole activity(current instace of activity distroyed- lifecycle moves to onDestroyed state and when the rotation finished it will start with a new activity). The VM will also be re-created.
-        <p> Eg below where on screen rotation the background is not changed </p>
-        <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9f59460e-a900-4679-820a-0609d9ab8507">
-          <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/7169cd75-3396-4d04-9338-61e40bf35951">
-          <p>Eg below where on screen rotation the background is changed
-          Inheriting from ViewModel it will create a component which will outlive the life cycle of its screen(activity). The activity has a lifecycle that ends when we rotated the device then this VM that it inherits from will outlive and won't be distroyed when the activity will be distroye. It will be distroyed when use pops the activity from the backstack(back button)</p>
+          * Configuration change - screen rotation, user changes language, theme - app needs to update all colours.How Android deals with these changes is by re-creating the whole activity(current instace of activity distroyed- lifecycle moves to onDestroyed state and when the rotation finished it will start with a new activity). The VM will also be re-created.
+          * Eg below where on screen rotation the background is not changed </p>
+           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9f59460e-a900-4679-820a-0609d9ab8507">
+           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/7169cd75-3396-4d04-9338-61e40bf35951">
+          * Eg below where on screen rotation the background is changed
+          * Inheriting from ViewModel it will create a component which will outlive the life cycle of its screen(activity). The activity has a lifecycle that ends when we rotated the device then this VM that it inherits from will outlive and won't be distroyed when the activity will be distroye. It will be distroyed when use pops the activity from the backstack(back button)</p>
           <img width="573" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/eb1a8034-97cf-4462-921b-5684a5095101">
-          <p>The VM won't be destroyed because of configuration changes we need to use the Android way of initialising the View Models</p>
-          <img width="738" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6ed0c59f-deb4-4035-9d66-d70e12f83ae7">
-          <p> View Model factory - a class that defines how our viewModel instance is to created with the Android ViewModel</p>
+          * The VM won't be destroyed because of configuration changes we need to use the Android way of initialising the View Models</p>
+           <img width="738" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6ed0c59f-deb4-4035-9d66-d70e12f83ae7">
+          * View Model factory - a class that defines how our viewModel instance is to created with the Android ViewModel</p>
           <img width="800" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6660238b-6370-4ee6-abaf-e73444e0ae5e">
      
      - [x] [What is context?](https://www.youtube.com/watch?v=YdnM2ZvrIFM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
@@ -106,20 +105,17 @@ Organising:
              - Activity
              - Application
          <img width="516" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9bf8fa62-9466-49a8-b862-aabbee223afc">
+         
          *  What's the difference between a Main Activity Context and an Activity Context?
          *  Each context has a specific lifetime. Main Activity Context is active as long as the activity is active and when it's destroyed all it's components are destroyed and resources freed up. If Activity is destroyed Context is destroyed aslo same is true for MyApplication 
           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
+          
          *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
            <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1440ffc5-a5ee-4150-8a69-ecd6f2a3b948">
-
-         
-
-
-
+           
          * A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object passing in. 
        <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2c0ac4d0-7250-4d67-9801-baec0e54e412">
-  
-         * The middle man between your app and other components.
+         
          * It's brigde between Android apps and the rest of Android Operating system.
          * It provides context for your app to operate within the larger scope of whole Android Operating System.
          * Your app needs to communicate to other system/components or other apps(eg get access to resources- images,unlocalised strings you need access to context) another eg(DB or preferences)
