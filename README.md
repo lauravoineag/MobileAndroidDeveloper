@@ -8,7 +8,9 @@ Overview
 
 [2. Kotlin](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Kotlin)
 
-Android
+Organising:
+[Android Dev- Full Path Planning](https://www.youtube.com/watch?v=AhUL5tHF3uc)
+
 1. - [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)*
 
 
