@@ -109,7 +109,7 @@ Organising:
          *  What's the difference between a Main Activity Context and an Activity Context?
          *  Each context has a specific lifetime. Main Activity Context is active as long as the activity is active and when it's destroyed all it's components are destroyed and resources freed up. If Activity is destroyed Context is destroyed aslo same is true for MyApplication 
           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
-         *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity
+         *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
            <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1440ffc5-a5ee-4150-8a69-ecd6f2a3b948">
 
          
@@ -303,3 +303,6 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
  ##### Inspiration for project designs:
 https://dribbble.com/shots
 https://daringfireball.net/projects/markdown/syntax#overview
+
+Interview prep:
+https://www.youtube.com/shorts/VLdPutYuxrw
