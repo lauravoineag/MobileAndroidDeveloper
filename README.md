@@ -11,7 +11,7 @@ Overview
 Organising:
 [Android Dev- Full Path Planning](https://www.youtube.com/watch?v=AhUL5tHF3uc)
 
-[ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)*
+- [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)*
 
 
 #### Learned while pairing:
