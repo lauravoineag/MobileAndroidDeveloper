@@ -28,6 +28,9 @@ Overview
 #### Videos 
 1. - [x] [The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video](https://www.youtube.com/watch?v=6_wK_Ud8--0)
    - [ ] [Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+
+
+[Full beginner roadmap:](https://www.youtube.com/watch?v=AhUL5tHF3uc)
          
 2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
       - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
@@ -184,7 +187,9 @@ We can turn things on remotely - but we can also turn things off remotely if the
 
 # 2. Kotlin
 
+
 #### Android Kotlin courses
+- [ ] [Kotlin from newbie to pro](https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9)
 - [ ] https://developer.android.com/courses/android-basics-kotlin/course
 - [ ] https://developer.android.com/kotlin
 - [ ] KOTLIN NEWBIE TO PRO https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9
