@@ -237,7 +237,7 @@ The idea that every single commit made to main is not only releasable, but is al
 In practice, people are super worried about that, and it only really works in an environment where you can push updates to users (e.g. websites or services) whilst mobile development is a pull model, where someone needs to go to the store and tap on update to get any changes (boo).
 We may use CD to publish potential releases to the Alpha/Beta tracks of Google Play.
 
-# 3. Other platforms for learning Language:
+# 4. Other platforms for learning Language:
  ##### Practice Language Code wars - Katas to learn Kotlin
 - https://www.codewars.com/
 - https://play.kotlinlang.org/koans/overview
