@@ -6,7 +6,7 @@ Overview
 
 [1. Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Compose)
 
-[2.Kotlin](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Kotlin)
+[2. Kotlin](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Kotlin)
 
 Android
 1. - [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
