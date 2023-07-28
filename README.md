@@ -101,7 +101,7 @@ Organising:
          <summary>Learning</summary>
          
          * Context is an instance of a class. Context object comes from Android Content.
-         * It's s how your android app communicates with other components/apps.
+         * It's s how your android app interacts with other components/apps.
          * The middle man between your app and other components.
          * It's brigde between Android apps and the rest of Android Operating system.
          * It provides context for your app to operate within the larger scope of whole Android Operating System.
