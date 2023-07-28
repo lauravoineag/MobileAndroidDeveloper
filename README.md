@@ -15,7 +15,7 @@ Organising:
 
 
  #### Learned while pairing:
-<details open>
+<details>
 <summary>Useful information</summary>
   
 * Make small changes frequently in the UI to see how components line up together (use Preview and SplitView)
