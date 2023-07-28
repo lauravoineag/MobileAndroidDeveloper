@@ -1,6 +1,7 @@
 # Mobile Android Developer Learning Journey
 
 Overview
+
 [0. Android](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Android)
 
 [1. Compose](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Compose)
@@ -10,7 +11,7 @@ Overview
 Android
 1. - [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
 
-# 1.Compose
+# Compose
 
 #### Learned while pairing:
 - Make small changes frequently in the UI to see how components line up together (use Preview and SplitView) 
@@ -189,7 +190,7 @@ We can turn things on remotely - but we can also turn things off remotely if the
     - Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 
-# 2. Kotlin
+# Kotlin
 
 
 #### Android Kotlin courses
