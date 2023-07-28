@@ -101,7 +101,9 @@ Organising:
          <summary>Learning</summary>
          
          * Context is an instance of a class. Context object comes from Android Content.
-         * It's s how your android app interacts with other components/apps.
+         * It's s how your android app interacts/gets access to other components/apps. A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object passing in. 
+       <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2c0ac4d0-7250-4d67-9801-baec0e54e412">
+       
          * The middle man between your app and other components.
          * It's brigde between Android apps and the rest of Android Operating system.
          * It provides context for your app to operate within the larger scope of whole Android Operating System.
