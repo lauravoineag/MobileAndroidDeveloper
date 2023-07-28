@@ -95,6 +95,8 @@ Organising:
           <img width="738" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6ed0c59f-deb4-4035-9d66-d70e12f83ae7">
           <p> View Model factory - a class that defines how our viewModel instance is to created with the Android ViewModel</p>
           <img width="800" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6660238b-6370-4ee6-abaf-e73444e0ae5e">
+     
+     - [x] [What is context?](https://www.youtube.com/watchv=YdnM2ZvrIFM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
 
      - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
 
