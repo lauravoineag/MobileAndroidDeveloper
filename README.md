@@ -11,24 +11,35 @@ Overview
 Android
 1. - [ ] [Android Fundamentals](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)*
 
-# Compose
 
-#### Learned while pairing:
-- Make small changes frequently in the UI to see how components line up together (use Preview and SplitView) 
-- Responsive design - design solutions in responsive ways - sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column - don't add size to button - size in the parent/column
-- Design and Arhitecture -  Think about the responsibilities of what each class has - The Responsibilities will trigger all the output - OOP Principles
--  How to plan a UI ticket:
-   * There are 3 catgories:
-     1. Writing Componenets
-     2. Adding Behaviour
-     3. Adding Styling
-   * You start writing in this order because you want to see visually how the components align together, to then be able to add the behaviour for them and finally the styling of components. You add the styling at the end because the behaviour might affect the styling and styling may then have to be refactored
-- Golden module - We apply the principles of the team's defined “golden module” to all the existing and future modules in the codebase. The “golden module” is the pattern we apply to all feature modules.It’s not a module _itself_ but it shows us a set of principles we apply when we write a module.
-- Two way binding = the same state - the same state that causes the state change will also trigger this on value change function which will update the state again
-- State
-  WHAT is the state? Declare the state. The main application has the responsibility of holding the state
-  HOW does the state change?  Handler which holds the responsibility - still in main applicatin - updates the state
-  WHEN is the state changing? It's the trigger/event which causes the state to change. It's the onClick event of the buttons.
+ #### Learned while pairing:
+<details open>
+<summary>Useful information</summary>
+  
+* Make small changes frequently in the UI to see how components line up together (use Preview and SplitView)
+  
+* Responsive design - design solutions in responsive ways - sizing the container is better than sizing the element - when you are looking at parent child relationship - you want a dynamic size for containers - e.g a button in a column - don't add size to button - size in the parent/column
+  
+* Design and Arhitecture -  Think about the responsibilities of what each class has - The Responsibilities will trigger all the output - OOP Principles
+  
+* How to plan a UI ticket in this order:
+  - Writing Componenets
+  - Adding Behaviour
+  - Adding Styling
+    
+* You start writing in this order because you want to see visually how the components align together, to then be able to add the behaviour for them and finally the styling of components. You add the styling at the end because the behaviour might affect the styling and styling may then have to be refactored
+  
+* Golden module - We apply the principles of the team's defined “golden module” to all the existing and future modules in the codebase. The “golden module” is the pattern we apply to all feature modules.It’s not a module _itself_ but it shows us a set of principles we apply when we write a module.
+  
+* Two way binding = the same state - the same state that causes the state change will also trigger this on value change function which will update the state again
+  
+* State
+  - WHAT is the state? Declare the state. The main application has the responsibility of holding the state
+  - HOW does the state change?  Handler which holds the responsibility - still in main applicatin - updates the state
+  - WHEN is the state changing? It's the trigger/event which causes the state to change. It's the onClick event of the buttons.
+</details>
+
+# Compose
 
 #### Videos 
 1. - [x] [The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video](https://www.youtube.com/watch?v=6_wK_Ud8--0)
