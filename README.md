@@ -28,7 +28,7 @@ Organising:
   - Writing Componenets
   - Adding Behaviour
   - Adding Styling
-    
+  
 * You start writing in this order because you want to see visually how the components align together, to then be able to add the behaviour for them and finally the styling of components. You add the styling at the end because the behaviour might affect the styling and styling may then have to be refactored
   
 * Golden module - We apply the principles of the team's defined “golden module” to all the existing and future modules in the codebase. The “golden module” is the pattern we apply to all feature modules.It’s not a module _itself_ but it shows us a set of principles we apply when we write a module.
@@ -100,10 +100,25 @@ Organising:
         <details>
          <summary>Learning</summary>
          
-         * Context is an instance of a class. Context object comes from Android Content.
-         * It's s how your android app interacts/gets access to other components/apps. A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object passing in. 
+         * Context is a super class. Context object comes from Android Content.
+         * It's s how your android app interacts/gets access to other components/apps.
+         * Subclasses of Context:
+             - Activity
+             - Application
+         <img width="516" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9bf8fa62-9466-49a8-b862-aabbee223afc">
+         *  What's the difference between a Main Activity Context and an Activity Context?
+         *  Each context has a specific lifetime. Main Activity Context is active as long as the activity is active and when it's destroyed all it's components are destroyed and resources freed up. If Activity is destroyed Context is destroyed aslo same is true for MyApplication 
+          <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
+         *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity
+           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1440ffc5-a5ee-4150-8a69-ecd6f2a3b948">
+
+         
+
+
+
+         * A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object passing in. 
        <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2c0ac4d0-7250-4d67-9801-baec0e54e412">
-       
+  
          * The middle man between your app and other components.
          * It's brigde between Android apps and the rest of Android Operating system.
          * It provides context for your app to operate within the larger scope of whole Android Operating System.
