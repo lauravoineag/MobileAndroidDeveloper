@@ -99,9 +99,19 @@ Organising:
      - [x] [What is context?](https://www.youtube.com/watch?v=YdnM2ZvrIFM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
         <details>
          <summary>Learning</summary>
-         * Make small changes 
+         
+         * Context is an instance of a class. Context object comes from Android Content.
+         * It's s how your android app communicates with other components/apps.
+         * The middle man between your app and other components.
+         * It's brigde between Android apps and the rest of Android Operating system.
+         * It provides context for your app to operate within the larger scope of whole Android Operating System.
+         * Your app needs to communicate to other system/components or other apps(eg get access to resources- images,unlocalised strings you need access to context) another eg(DB or preferences)
+         * Where DB needs to save something on your Android device & because that file system is an Android component(part of Android system) you need context to write to this file system)
+         * If you want to launch a new activity from your app or from another - you need Context in order for your app to read a text file in an app that supports text files - to open that other activity which is able to read the textfiles that would need Context.
+         <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/cbfcc242-17dd-42f5-9e35-067fa4b70c36">
+        </details>
 
-     - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
+   - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
 
 3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
 4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
