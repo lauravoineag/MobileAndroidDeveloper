@@ -97,6 +97,9 @@ Organising:
           <img width="800" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/6660238b-6370-4ee6-abaf-e73444e0ae5e">
      
      - [x] [What is context?](https://www.youtube.com/watch?v=YdnM2ZvrIFM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
+        <details>
+         <summary>Learning</summary>
+         * Make small changes 
 
      - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
 
