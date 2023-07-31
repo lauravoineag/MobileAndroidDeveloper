@@ -142,7 +142,21 @@ Organising:
         <details>
          <summary>Summary</summary>
 
-         * Resources are non code things
+         * Resources are non code things you app needs: Pictures, Vector graphics, localised Strings(text translated to different languages so your app can support that as well). `res` folder
+         * `drawable` relates to everything visual - pictures,jpeg, vector graphics(translated in XML format)- SVG image then you can import it here and Android Studio will convert it into an XML format which Android understands. 
+         * <img width="222" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/897dc548-59a5-4c4e-bea1-7807615d9c4e">
+
+         * Copy-Paste the picture into drawable
+
+         * Now we want to read the picture and get a reference to it in code.
+         * Every resource has an ID (R - your package name)
+         * For Applications use `applicationContext.resources`
+         * For our Activity we use `resources.getDrawable(R.drawable.anime)`
+         * If you want to show it on the screen directly
+        <img width="951" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/cf97d1ee-90b8-403f-9c3a-750610361d4d">
+
+         
+
           
         </details>
 
