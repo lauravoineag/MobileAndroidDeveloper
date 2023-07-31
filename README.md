@@ -102,17 +102,16 @@ Organising:
          <summary>Learning</summary>
          
          * Context is a super class. Context object comes from Android Content.
-         * It's brigde between Android apps and the rest of Android Operating system.
-         * It provides context for your app to operate within the larger scope of whole Android Operating System.
-         * Your app needs to communicate to other system/components or other apps(eg get access to resources- images,unlocalised strings you need access to context) another eg(DB or preferences)
+         * It's brigde between YOUR Android app and the rest of Android Operating system.
+         * It provides **context** for your app to operate within the larger scope of whole Android Operating System.
+         * Your app needs to communicate to other system/components or other apps(eg get access to resources- static images, localised strings you need access to context) another eg(DB or preferences). To get these you need access to the context.
          * Where DB needs to save something on your Android device & because that file system is an Android component(part of Android system) you need context to write to this file system)
-         * If you want to launch a new activity from your app or from another - you need Context in order for your app to read a text file in an app that supports text files - to open that other activity which is able to read the textfiles that would need Context.
+         * If you want to launch a different Activity from your app or from another - you need Context in order for your app to read a text file in an app that supports text files - to open that other Activity which is able to read the textfiles that would need Context. It's the middle man between your app and other components.
          <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/cbfcc242-17dd-42f5-9e35-067fa4b70c36">
-
-         * A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object passing in. 
+         * A kotlin class doesn't know how to interact with my Android app, where to save data etc, so it needs access to a context object. Now it's connected to the Android side. and can use this context intance to do all of these things: write to files, open DB connections.
        <img width="547" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2c0ac4d0-7250-4d67-9801-baec0e54e412">
          
-         * It's s how your android app interacts/gets access to other components/apps.
+         * Context is a Superclass. It's s how your android app interacts/gets access to other components/apps.
          * Subclasses of Context:
              - Activity Context (Main Activity)
              - Application Context (MyApplication - Different Application)
@@ -129,8 +128,14 @@ Organising:
          * _Basically we don't want anything to outlive our MainActivity._ "E.g.When thelifecycle of the View Model is longer than the Activity (View Model had an instance of the activity) this could mean memory leaks.
           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
           
-         *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
+          *  Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
            <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/1440ffc5-a5ee-4150-8a69-ecd6f2a3b948">
+
+          * Why do we need Activity Context?
+          * When you need information about the activity itself. you want to request certain premissions when you want to access private user info or using the phone's camera, microphone. You need to request the permission from the user to access that.
+          * `ActivityCompat.requestPermissions(pass in activity context and not application context)`
+          * `requestPermissions()` shows a system dialogue(overlay a transparent activity that comes from the Android system but this activity needs info about your current activity because it will show on top of it). This is connected to your UI if you want to see the permission dialogue. The App Context is not connected to the UI because that just refers to the App itself and your app could just be in the background if you access your application context. 
+          * <img width="466" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/f5042da9-17c7-4123-b059-7a4161d8b1a2">
         </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
