@@ -99,7 +99,7 @@ Organising:
      
      - [x] [What is context?](https://www.youtube.com/watch?v=YdnM2ZvrIFM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=4)
         <details>
-         <summary>Learning</summary>
+         <summary>Summary</summary>
          
          * Context is a super class. Context object comes from Android Content.
          * It's brigde between YOUR Android app and the rest of Android Operating system.
@@ -137,13 +137,21 @@ Organising:
           * `requestPermissions()` shows a system dialogue(overlay a transparent activity that comes from the Android system but this activity needs info about your current activity because it will show on top of it). This is connected to your UI if you want to see the permission dialogue. The App Context is not connected to the UI because that just refers to the App itself and your app could just be in the background if you access your application context. 
           * <img width="466" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/f5042da9-17c7-4123-b059-7a4161d8b1a2">
         </details>
+  
+      - [x] [Resources and Qualifiers](https://www.youtube.com/watch?v=vj1ZdUfPlJM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=5)
+        <details>
+         <summary>Summary</summary>
+
+         * Resources are non code things
+          
+        </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
 
-3. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
-4. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
-5. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
-6. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
+2. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
+3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
+4. - [ ] [Gradle for Beginners](https://www.youtube.com/watch?v=o0M4f5djJTQ)
+5. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
 
 https://developer.android.com/samples
  List
