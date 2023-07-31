@@ -102,12 +102,15 @@ Organising:
          * Context is a super class. Context object comes from Android Content.
          * It's s how your android app interacts/gets access to other components/apps.
          * Subclasses of Context:
-             - Activity
-             - Application
+             - Activity Context (Main Activity)
+             - Application Context (MyApplication - Different Application)
+             - Services etc
          <img width="516" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9bf8fa62-9466-49a8-b862-aabbee223afc">
          
-         *  What's the difference between a Main Activity Context and an Activity Context?
-         *  Each context has a specific lifetime. Main Activity Context is active as long as the activity is active and when it's destroyed all it's components are destroyed and resources freed up. If Activity is destroyed Context is destroyed aslo same is true for MyApplication 
+         *  What's the difference between a Application Context(MyApplication class) and an Activity Context(Main Activity)?
+         *  Each context has a specific lifetime.
+         * Activity context is active as long as the activity is active, each activity has a lifecycle - and when Activity is destroyed all it's components are destroyed and resources freed up, including Context.
+         * When App(My application) is destroyed - Context is destroyed also.
           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
           
          *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
