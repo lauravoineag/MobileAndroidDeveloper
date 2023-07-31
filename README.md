@@ -158,6 +158,15 @@ Organising:
          * `drawable` we have ic_launcher of same type (v24) is a qualifier - this is used for a specific device configuration - that means that Android device neds to run @least on API level24 otherwise this resource won't be used. Eg some devices where apps only available for that Country code,  Small screen width , one resource only on dark mode
            <img width="251" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/56287a6a-6771-4f4d-b9c8-77df0258f59a">
            <img width="624" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2bbdfa65-8214-481f-afeb-7b2762e866d5">
+        
+           * Mipmap is used for the Icon of our app  - no matter size or resolution of screen,Lots of qualifiers mdpi,xhdpi that refer to the device resolution - better resolution the higher we go xxxdpi is the higher
+             <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/229c4123-fc8c-48b1-8cb2-9efbe1c4c71a">
+        
+           * Values combines colours, strings and themes
+              - <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/458be670-fa15-40e9-8eac-a16312cf2c55">
+
+
+
 
 
 
