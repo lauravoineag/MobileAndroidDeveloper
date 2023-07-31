@@ -155,6 +155,12 @@ Organising:
          * If you want to show it on the screen directly
         <img width="951" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/cf97d1ee-90b8-403f-9c3a-750610361d4d">
 
+         * `drawable` we have ic_launcher of same type (v24) is a qualifier - this is used for a specific device configuration - that means that Android device neds to run @least on API level24 otherwise this resource won't be used. Eg some devices where apps only available for that Country code,  Small screen width , one resource only on dark mode
+           <img width="251" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/56287a6a-6771-4f4d-b9c8-77df0258f59a">
+           <img width="624" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2bbdfa65-8214-481f-afeb-7b2762e866d5">
+
+
+
          
 
           
