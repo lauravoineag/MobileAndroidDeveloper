@@ -1,5 +1,7 @@
 # Mobile Android Developer Learning Journey
 
+[Shuhari](https://en.wikipedia.org/wiki/Shuhari) 
+
 Overview
 
 [0. Android](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Android)
@@ -111,6 +113,9 @@ Organising:
          *  Each context has a specific lifetime.
          * Activity context is active as long as the activity is active, each activity has a lifecycle - and when Activity is destroyed all it's components are destroyed and resources freed up, including Context.
          * When App(My application) is destroyed - Context is destroyed also.
+         * Conclusion
+         * Context is "the gateway to Android services" - this means connects with other apps in terms of permissions(if has permission connects if not then NO!) "and application storage" - Each context has a specific lifetime.  When MainActivity is destroyed all it's components are destroyed and resources freed up, including Context. When App(My application, an API) is destroyed - Context is destroyed also. What we want is not to store activity context outside of activity. Eg setting a view Model's context to have the same lifecycle as the main activity because it will outlive the lifecycle of the activity.
+_Basically we don't want anything to outlive our MainActivity._ "E.g.When thelifecycle of the View Model is longer than the which means if the view model had an instance of the activity that could mean memory leaks
           <img width="968" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/87b0b736-9214-43cd-b7fc-4f11739003d1">
           
          *   Do we benefit from having different context lifetimes? Yes, they can lead to memory leaks. Don't store activity context outside of an activity at least not in components who have a different lifetime. Eg setting a view Model's context to have the same lifecycle as the main activity.The VM's lifecycle will outlive the lifecycle of the activity
