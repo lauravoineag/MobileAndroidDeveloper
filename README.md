@@ -249,6 +249,7 @@ What is vital to learn -   knowing the application level components (Activity, A
 - [ ] [****](https://www.youtube.com/watch?v=pcnnbjAAIkI&t=9s)
 - [ ] DB & Cloud Stuff
 
+Arhitecture - https://developer.android.com/topic/architecture/intro
 
 #### Testing:
 - [ ] Testing in Android [****](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq)
