@@ -349,5 +349,9 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
 https://dribbble.com/shots
 https://daringfireball.net/projects/markdown/syntax#overview
 
+Good to know:
+https://developer.android.com/studio
+[Key Promoter](https://plugins.jetbrains.com/plugin/9792-key-promoter-x/versions/stable)
+
 Interview prep:
 https://www.youtube.com/shorts/VLdPutYuxrw
