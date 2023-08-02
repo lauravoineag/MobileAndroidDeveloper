@@ -184,13 +184,9 @@ Organising:
                - Brush.radialGradient(colorList)
          * Change distribution of Colors with colorStops - you can tweak the colorStops value for each one. colorStops should be specified as a fraction, between 0 and 1
          <img width="544" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/e4c9e3c8-5b81-4d8f-a1d7-881df868b3ca">
-
-         
-         
-         
          </details>
-     - [x] [Apply Hex Color Code to your Jetpack Compose Project Easily](https://www.youtube.com/watch?v=zlqXzE0al5s)
-     - [x] [Gradient Button - Jetpack Compose](https://www.youtube.com/watch?v=vPOS6L2SEX0)
+      - [x] [Apply Hex Color Code to your Jetpack Compose Project Easily](https://www.youtube.com/watch?v=zlqXzE0al5s)
+      - [x] [Gradient Button - Jetpack Compose](https://www.youtube.com/watch?v=vPOS6L2SEX0)
 
 2. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
 3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
