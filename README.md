@@ -166,16 +166,10 @@ Organising:
               - <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/458be670-fa15-40e9-8eac-a16312cf2c55">
 
 
-
-
-
 Screen reader https://www.w3.org/WAI/standards-guidelines/
 
 Testing explanation: https://www.google.com/imgres?imgurl=https://i0.wp.com/4.bp.blogspot.com/-lgR0Ph-CLnE/UZ9CJXaaRlI/AAAAAAAAAyY/D0zkoc3KnVA/s1600/TestingTriangle.png&tbnid=b8wvWS1MlDn44M&vet=1&imgrefurl=https://www.allankelly.net/archives/628/testing-triangles-pyramids-and-circles/&docid=30gYx_begKiw-M&w=1600&h=1363&source=sh/x/im/1
-         
-
-          
-        </details>
+         </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
 
@@ -203,6 +197,7 @@ What is vital to learn -   knowing the application level components (Activity, A
 [Services](https://developer.android.com/guide/components/services)
 [Broadcast receiver](https://developer.android.com/guide/components/broadcasts)
 [Content Provider](https://developer.android.com/guide/topics/providers/content-providers#:~:text=Content%20providers%20are%20the%20standard,as%20illustrated%20in%20figure%201)
+
 
 #### Codelabs 
 - [ ] [All](https://developer.android.com/courses/fundamentals-training/toc-v2)
