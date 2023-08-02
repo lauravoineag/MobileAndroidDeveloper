@@ -170,6 +170,8 @@ Organising:
          </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
+   - [ ] [Brush: Gradients and Shaders](https://developer.android.com/jetpack/compose/graphics/draw/brush)
+     - [x] [Gradient Button - Jetpack Compose](https://www.youtube.com/watch?v=vPOS6L2SEX0)
 
 2. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
 3. - [ ] [Android Fundamentals for Beginners](https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX)
