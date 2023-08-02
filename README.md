@@ -173,6 +173,20 @@ Organising:
    - [ ] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
    - [ ] [Brush: Gradients and Shaders](https://developer.android.com/jetpack/compose/graphics/draw/brush)
          <details><summary>Summary</summary>
+          * A Brush in Compose describes how something is drawn on screen: it determines the color(s) that are drawn in the drawing area.
+         * There are 3 built-in Brushes: LinearGradient, RadialGradient or a plain SolidColor
+         * Brushes can be used with Modifier.background(), TextStyle, or DrawScope draw calls to apply the painting style to the content being drawn.
+         * Gradient Brushes
+               - Brush.horizontalGradient(colorList)
+               - Brush.linearGradient(colorList)
+               - Brush.verticalGradient(colorList)
+               - Brush.sweepGradient(colorList)
+               - Brush.radialGradient(colorList)
+         * Change distribution of Colors with colorStops - you can tweak the colorStops value for each one. colorStops should be specified as a fraction, between 0 and 1
+         <img width="544" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/e4c9e3c8-5b81-4d8f-a1d7-881df868b3ca">
+
+         
+         
          
          </details>
      - [x] [Apply Hex Color Code to your Jetpack Compose Project Easily](https://www.youtube.com/watch?v=zlqXzE0al5s)
