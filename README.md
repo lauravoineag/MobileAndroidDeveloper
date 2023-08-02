@@ -175,6 +175,7 @@ Organising:
          <details><summary>Summary</summary>
          
          </details>
+     - [x] [Apply Hex Color Code to your Jetpack Compose Project Easily](https://www.youtube.com/watch?v=zlqXzE0al5s)
      - [x] [Gradient Button - Jetpack Compose](https://www.youtube.com/watch?v=vPOS6L2SEX0)
 
 2. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
