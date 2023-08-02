@@ -170,7 +170,11 @@ Organising:
          </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
+   - [ ] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
    - [ ] [Brush: Gradients and Shaders](https://developer.android.com/jetpack/compose/graphics/draw/brush)
+         <details><summary>Summary</summary>
+         
+         </details>
      - [x] [Gradient Button - Jetpack Compose](https://www.youtube.com/watch?v=vPOS6L2SEX0)
 
 2. - [ ]  Android framework [Platform arhitecture](https://developer.android.com/guide/platform)           
