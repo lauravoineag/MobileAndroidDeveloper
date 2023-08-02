@@ -194,6 +194,7 @@ Organising:
 5. - [ ] [Convert Figma Designs to Jetpack Compose Code With This FREE Plugin](https://www.youtube.com/watch?v=byOmrmXG4yQ)
   
    - [ ] Screen reader https://www.w3.org/WAI/standards-guidelines/
+   - [ ] https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi
    - [ ] Testing explanation: https://www.google.com/imgres?imgurl=https://i0.wp.com/4.bp.blogspot.com/-lgR0Ph-CLnE/UZ9CJXaaRlI/AAAAAAAAAyY/D0zkoc3KnVA/s1600/TestingTriangle.png&tbnid=b8wvWS1MlDn44M&vet=1&imgrefurl=https://www.allankelly.net/archives/628/testing-triangles-pyramids-and-circles/&docid=30gYx_begKiw-M&w=1600&h=1363&source=sh/x/im/1
 
 https://developer.android.com/samples
