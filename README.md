@@ -171,6 +171,7 @@ Organising:
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
    - [ ] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
+   - [ ] [Custom layouts and graphics in Compose](https://www.youtube.com/watch?v=xcfEQO0k_gU)
    - [ ] [Brush: Gradients and Shaders](https://developer.android.com/jetpack/compose/graphics/draw/brush)
          <details><summary>Summary</summary>
           * A Brush in Compose describes how something is drawn on screen: it determines the color(s) that are drawn in the drawing area.
