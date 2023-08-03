@@ -170,6 +170,7 @@ Organising:
          </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
+   - [x] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
    - [ ] [Custom layouts and graphics in Compose](https://www.youtube.com/watch?v=xcfEQO0k_gU)
    - [ ] [Brush: Gradients and Shaders](https://developer.android.com/jetpack/compose/graphics/draw/brush)
          <details><summary>Summary</summary>
