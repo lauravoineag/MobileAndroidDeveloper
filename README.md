@@ -141,7 +141,7 @@ Organising:
       - [x] [Resources and Qualifiers](https://www.youtube.com/watch?v=vj1ZdUfPlJM&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=5)
         <details>
          <summary>Summary</summary>
-
+          
          * Resources are non code things you app needs: Pictures, Vector graphics, localised Strings(text translated to different languages so your app can support that as well). `res` folder
          * `drawable` relates to everything visual - pictures,jpeg, vector graphics(translated in XML format)- SVG image then you can import it here and Android Studio will convert it into an XML format which Android understands. 
          * <img width="222" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/897dc548-59a5-4c4e-bea1-7807615d9c4e">
@@ -158,15 +158,22 @@ Organising:
          * `drawable` we have ic_launcher of same type (v24) is a qualifier - this is used for a specific device configuration - that means that Android device neds to run @least on API level24 otherwise this resource won't be used. Eg some devices where apps only available for that Country code,  Small screen width , one resource only on dark mode
            <img width="251" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/56287a6a-6771-4f4d-b9c8-77df0258f59a">
            <img width="624" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2bbdfa65-8214-481f-afeb-7b2762e866d5">
-        
-           * Mipmap is used for the Icon of our app  - no matter size or resolution of screen,Lots of qualifiers mdpi,xhdpi that refer to the device resolution - better resolution the higher we go xxxdpi is the higher
+           * `Mipmap`  is used for the Icon of our app  - no matter size or resolution of screen,Lots of qualifiers mdpi,xhdpi that refer to the device resolution - better resolution the higher we go xxxdpi is the higher
              <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/229c4123-fc8c-48b1-8cb2-9efbe1c4c71a">
-        
+           * Vector graphics - still in drawable - if you want some images to just be in night mode.
+           * Drawable> New> Drawable New Resource file> Select NightMode
+           * Qualifiers(Night Mode) - configuration that we make our resources dependent on.
+           * Copy and paste the night mode image into drawable int a new directory called `drawable-night` and move in Project view. Go to night mode and you will see it change.
+            <img width="318" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/05e64dcb-d7a6-4468-973b-e096070511a4">
+
            * Values combines colours, strings and themes
+           * Add a New Values Resource > call it colors > select Qualifier > Night Mode &replace the colours for night mode. 
+           * <img width="796" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/e9a15289-4edb-416c-89dd-9ba7f4820126">
               - <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/458be670-fa15-40e9-8eac-a16312cf2c55">
-
-
-
+            * Strings - New Value Resource > Locale>Choose a country
+            * Themes  - define themes directly in compose, so not used
+            * xml - config for specifics that don't fit above
+            * Conclusion - you can access any recource if you have access to the activity or context of the app referring to resources - applicationContext.resources. 
          </details>
 
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
