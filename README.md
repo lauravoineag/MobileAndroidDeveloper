@@ -43,6 +43,12 @@ Organising:
   - WHEN is the state changing? It's the trigger/event which causes the state to change. It's the onClick event of the buttons.
 </details>
 
+#### Lessons:
+<details>
+<summary>Useful information</summary>
+  * If you create a second activity you need to register it in the Activity Manifest (see Intent)
+</details>
+
 # Compose
 
 #### Videos 
@@ -144,7 +150,7 @@ Organising:
           
          * Resources are non code things you app needs: Pictures, Vector graphics, localised Strings(text translated to different languages so your app can support that as well). `res` folder
          * `drawable` relates to everything visual - pictures,jpeg, vector graphics(translated in XML format)- SVG image then you can import it here and Android Studio will convert it into an XML format which Android understands. 
-         * <img width="222" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/897dc548-59a5-4c4e-bea1-7807615d9c4e">
+          <img width="222" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/897dc548-59a5-4c4e-bea1-7807615d9c4e">
 
          * Copy-Paste the picture into drawable
 
@@ -160,6 +166,7 @@ Organising:
            <img width="624" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/2bbdfa65-8214-481f-afeb-7b2762e866d5">
            * `Mipmap`  is used for the Icon of our app  - no matter size or resolution of screen,Lots of qualifiers mdpi,xhdpi that refer to the device resolution - better resolution the higher we go xxxdpi is the higher
              <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/229c4123-fc8c-48b1-8cb2-9efbe1c4c71a">
+             
            * Vector graphics - still in drawable - if you want some images to just be in night mode.
            * Drawable> New> Drawable New Resource file> Select NightMode
            * Qualifiers(Night Mode) - configuration that we make our resources dependent on.
@@ -168,14 +175,36 @@ Organising:
 
            * Values combines colours, strings and themes
            * Add a New Values Resource > call it colors > select Qualifier > Night Mode &replace the colours for night mode. 
-           * <img width="796" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/e9a15289-4edb-416c-89dd-9ba7f4820126">
-              - <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/458be670-fa15-40e9-8eac-a16312cf2c55">
+             <img width="796" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/e9a15289-4edb-416c-89dd-9ba7f4820126">
+             <img width="277" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/458be670-fa15-40e9-8eac-a16312cf2c55">
+      
             * Strings - New Value Resource > Locale>Choose a country
             * Themes  - define themes directly in compose, so not used
             * xml - config for specifics that don't fit above
             * Conclusion - you can access any recource if you have access to the activity or context of the app referring to resources - applicationContext.resources. 
          </details>
+         
+      - [x] [Intent & Intent Filters](https://www.youtube.com/watch?v=2hIY1xuImuQ&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=6)
+            <details>
+              <summary>Summary</summary>
+         * Intent is a way to communicate with a different android component(an activity) (an envelope that holds the intention of your app and transfers that to a diff android component(usually an activity)
 
+          * **Explicit Intent** tageted towards one specific app that has to be specified in that intent - we speficy the intention "we want to launch that youtube app and when we fire and send that intent Android will launch that youtube activity."
+          * When we create Second Activity to our app we then need to register it in the Android Manifest.
+          * `Android Manifest` = the place that summarisez the functionality of your App. Shows to the outside world "This is what your app needs to do and these are:
+              - the Components it consists of
+              - the Permission it needs "  - to access the User's camera that needs to be registered
+          * Add the Second Activity to the Manifest.
+            <img width="635" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/154f5a84-6278-422e-a137-73963ad839ec">
+          * When we Click the Button in the Main Activity -> We want to create an **Intent** with the intention to launch the Second Activity and then fire that and actually Launch it. We link it to package context(the context of our app) & class overload(class of our second activity)
+            `Button(onClick = {
+                       Intent(applicationContext,SecondActivity::class.java)
+                   }`
+            `.also{startActivity(it)}` requires an intent object - it(Intent above) Run app and you will get to second screen.
+            <img width="1426" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9d7a67df-f41e-47e5-96ca-90155d7438e3">
+            <img width="249" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/b5e332de-0c4d-48ef-911e-9035974263db"> <img width="249" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/bf026b28-1a67-430d-8fe8-ee870bbe9b19">
+            </details>
+            
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
    - [x] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
    - [ ] [Custom layouts and graphics in Compose](https://www.youtube.com/watch?v=xcfEQO0k_gU)
