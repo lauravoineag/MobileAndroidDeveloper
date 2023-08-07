@@ -291,7 +291,9 @@ Organising:
              <img width="560" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d88c6a09-2ea3-4171-b6c4-aaf9ecf93ec8">
            * Register the Receiver and specify an intent filter 
              onCreate() you register the receiver specify intent filter((what kind of intents our receiver should receive). Intent filter - pass the action of the intent to be received-Intent.ACTION_AIRPLANE_MODE_CHANGED
-          * Unregister this airplane mode receiver when it's not needed anymore - In the case of an Activity that would be onDestroy 
+          * Unregister this airplane mode receiver when it's not needed anymore - In the case of an Activity that would be onDestroy
+          * Dynamic broadcast receiver - dynamically declare when we need it (eg. in registerReceiver-airplaneModeReceiver function) and we dynamically unregister it onDestroy
+          * This will only work if our app is active,
              `private val  airPlaneModeReceiver = AirPlaneModeReceiver()`
             
              `override fun onCreate(savedInstanceState: Bundle?) {
