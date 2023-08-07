@@ -277,6 +277,7 @@ Organising:
 
                      * Go into Google -> go into an image -> Share Image -> More -> Select your app -> the image will show in your app
             </details>
+        - [x] [Broadcast and Broadcast Receivers](https://www.youtube.com/watch?v=HDVyFsFUuVg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=7)
             
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
    - [x] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
