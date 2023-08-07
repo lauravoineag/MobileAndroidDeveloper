@@ -254,12 +254,28 @@ Organising:
                   * Share image - Chrome will send an intent that it wants to share an image.
                   * If you press More - that will now show all apps that can accept such images.
                   * Set up your app to receive an image and show that image in our app > Manifest> specify intent filter
-                  * Register in the Manifest
+                  * Register the intent in the Manifest
                     <img width="514" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/70bc23c3-e567-452e-801a-691c76ea7138">
+                    <img width="222" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9744b9c1-d239-4e13-ab17-0396cad55504">
+                  * But you won't see the Image when you are sharing in the More(Package Manager).We haven't received that intent yet from Chrome App.
+                  * Chrome needs to put that data of the image inside that intent which then is being sent to our app. But our App needs to have the power to show that image, and by default what Chrome(that intent) will do is launch a new Task of our App (a new instance of our app) whcih will get that intent onCreate if you wanted or
+                  * Add in Manifest in Launchmode- if there's an instance of the app already open just send the data to that active instance. Setting the launchmode to Single Top. Manifest -->  android:launchMode="singleTop"
+                   * It will trigger `override fun onNewIntent(intent: Intent?) {super.onNewIntent(intent)}` because there's not a new Activity that is created so onCreate wouln't be called again but this `onNewIntent()` will be called and will deliver this intent from Chrome
+                   * so you can get the `uri` - the address of that image on our device which you ca read in as a byte.
+                   * `var uri =intent?.getParcelableExtra(Intent.EXTRA_STREAM, Uri:: class.java)`
+                   * `getParcelableExtra()` - package or serialize some data
+                   *  surround with a version check <img width="750" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/f30cf4c8-4da7-460c-904c-14695a3b9624">
+                   * we want to take the uri and display it in an image that we can put in UI
+                   * create a simple view model - that will update the state of our composables
+                   <img width="750" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/3171acb8-0367-46af-8ff3-06d8d70cc0bf">
+                   * create an instance of viewModel
+                     <img width="503" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/a543a2f1-12c3-41c9-8128-d5822da8ea1f">
+                     * and submit that uri
+                       <img width="199" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/fa263e8e-b416-457c-88c0-60baffe5b67b">
+                     * Go in Gridle Scripts module app to add a image loader, image caching library ` implementation("io.coil - kt:coil-compose:2.4.0")` uri to byte process it too complicated so we use this
+                     * ![image](https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/4b38ef44-196a-44c5-b024-58d1251e3e75)
 
-                    
-        
-                  
+                     * Go into Google -> go into an image -> Share Image -> More -> Select your app -> the image will show in your app
             </details>
             
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
