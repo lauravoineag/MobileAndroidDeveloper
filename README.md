@@ -305,8 +305,11 @@ Organising:
                 unregisterReceiver(airPlaneModeReceiver)`
             * Toggle the Airplane mode on and check Logcat for the printline
             * <img width="560" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/48023a49-f357-48eb-a6ed-86cf2a90ee68">
-
             </details>
+            
+        - [ ] [Foregroud Services](https://www.youtube.com/watch?v=YZL-_XJSClc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=8)
+            <details><summary>Summary</summary>
+            * TBC
             
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
    - [x] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
