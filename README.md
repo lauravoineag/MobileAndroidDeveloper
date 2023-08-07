@@ -279,6 +279,29 @@ Organising:
             </details>
             
       - [x] [Broadcast and Broadcast Receivers](https://www.youtube.com/watch?v=HDVyFsFUuVg&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=7)
+            <details><summary>Summary</summary>
+           * Broadcasts are system-wide evets your app can consume and receive.
+           * Sending a boradcast(like an intent) to many apps and apps that receive a broadcast.
+           ***Registering for Broadcast:**  Your app can register a broadcast receiver which is triggered when a roadcast is received
+           * Eg: when the Android device is booting up. Android system will send a broadcast to all apps
+            that are registered to receive this specific boot broadcast so that the apps can react when the device is booted up.
+           * Eg.2 Listening to music and getting a call. Phone calling app sends a broadcast so other apps can react to it. Music player could pause the playback so that user can fully accept the call.
+           * Eg 3. Airplane mode - When the user toggles off airplane mode we want to react to that and also turns back on.
+           * Broadcast receiver is a class
+             <img width="560" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d88c6a09-2ea3-4171-b6c4-aaf9ecf93ec8">
+           * Register the Receiver and specify an intent filter 
+             onCreate() you register the receiver specify intent filter((what kind of intents our receiver should receive). Intent filter - pass the action of the intent to be received-Intent.ACTION_AIRPLANE_MODE_CHANGED
+          * Unregister this airplane mode receiver when it's not needed anymore - In the case of an Activity that would be onDestroy 
+             `private val  airPlaneModeReceiver = AirPlaneModeReceiver()`
+            
+             `override fun onCreate(savedInstanceState: Bundle?) {
+                super.onCreate(savedInstanceState)
+                registerReceiver(airPlaneModeReceiver,IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED)`
+            
+             `override fun onDestroy() {
+                super.onDestroy()
+                unregisterReceiver(airPlaneModeReceiver)`
+            </details>
             
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
    - [x] [Custom Layouts In Jetpack Compose - Crash Course](https://www.youtube.com/watch?v=bTgyDqBoZ_o)
