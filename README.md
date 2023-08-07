@@ -187,36 +187,79 @@ Organising:
       - [x] [Intent & Intent Filters](https://www.youtube.com/watch?v=2hIY1xuImuQ&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=6)
             <details>
               <summary>Summary</summary>
-         * Intent is a way to communicate with a different android component(an activity) (an envelope that holds the intention of your app and transfers that to a diff android component(usually an activity).
-          * **Explicit Intent** tageted towards one specific app that has to be specified in that intent - we speficy the intention "we want to launch that youtube app and when we fire and send that intent Android will launch that youtube activity."
-          * We explicitly mention an Action or a thing we want to do with one intent either to our app or other(Youtuvbe)
-          *  `Android Manifest` = the place that summarisez the functionality of your App. Shows to the outside world "This is what your app needs to do and these are:
-              - the Components it consists of
-              - the Permission it needs "  - to access the User's camera that needs to be registered
-
+          * Intent is a way to communicate with a different android component(an activity). Like an envelope that holds the intention of your app and transfers that to a diff android component(usually an activity).
+          1. Explicit Intent tageted towards one specific app that has to be specified in that intent - we speficy the intention "we want to launch that youtube app and when we fire and send that intent Android will launch that youtube activity."
+          * _We explicitly mention an Action (a thing we want to do with that intent) because it's only sent to one specific app... either to our app or other(Youtube)_
              * 1. Example of Explicit Intent
-               * Create - Second Activity to our app and register it in the `Android Manifest`.
+               * Create -a Second Activity to our Main app and register it in the `Android Manifest`.
+               *  `Android Manifest` = the place that summarisez the functionality of your App. Shows to the outside world "This is what your app needs to do and these are:
+
+                  - the Components it consists of
+                  - the Permission it needs "  - to access the User's camera that needs to be registered.
             <img width="635" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/154f5a84-6278-422e-a137-73963ad839ec">
+            
               * When we Click the Button in the Main Activity -> We want to create an **Intent** with the intention to launch the Second Activity and then fire that and actually Launch it. We link it to package context(the context of our app) & class overload(class of our second activity)
+                
               `Button(onClick = {
                        Intent(applicationContext,SecondActivity::class.java)
                    }`
               `.also{startActivity(it)}` requires an intent object - it(Intent above) Run app and you will get to second screen.
             <img width="1426" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/9d7a67df-f41e-47e5-96ca-90155d7438e3">
             <img width="249" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/b5e332de-0c4d-48ef-911e-9035974263db"> <img width="249" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/bf026b28-1a67-430d-8fe8-ee870bbe9b19">
-           * 2. Example of Explicit Intent
+        
+           
+           * 2. Another Example of Explicit Intent
               
-              * Open another App - To Lanch an App that is installed in the device we need it's package name(Youtube)
+              * Open another App from Package Manager and not the one we built - To Lanch an App that is installed in the device we need it's package name(Youtube)
               * We pass an Action
-            <img width="432" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/a8284b23-ca52-4ef2-bbb6-294b5bbedbc1">
-            
-              `Intent(Intent.ACTION_MAIN).also { it.`package`= "com.google.android.youtube"
+              <img width="432" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/a8284b23-ca52-4ef2-bbb6-294b5bbedbc1">
+
+                `Intent(Intent.ACTION_MAIN).also { it.`package`= "com.google.android.youtube"
+                
                            try {
                                startActivity(it)
                            }catch(e:ActivityNotFoundException){
                                e.printStackTrace() // if we can't find the Activity print the stack trace
                            }
                        }`
+              2. **Implicit Intent** just specifies an action(smth you want to do with that intent) and Android will check which apps can actually satisfy that intent and show the user a chooser, so they can choose which app they want to send that intent to or open.
+                 
+             * Eg. If you want to open a text file in your app but your app can't do that because you don't have that code. You want to send the user to a different app that can open a text file but you don't care whcih app that is, you just want that app that can open a text file. You want to send an email (you  won't implement the code for that ) you would rather open an email app (Gmail) and pass all that info to that intent so that Gmail can handle that.
+
+             * `Button(onClick = {
+               
+                        val intent = Intent(Intent.ACTION_SEND).apply {` --> Action_send = send email
+               
+                             type = "text/plain"  --> specify the type of data to send image, text
+                             putExtra(Intent.EXTRA_EMAIL, arrayOf("test@test.com"))
+                             putExtra(Intent.EXTRA_SUBJECT, arrayOf("This is my subject")) --> subject of email
+                             putExtra(Intent.EXTRA_TEXT, arrayOf("This is the content of my email"))} --> email content
+               
+                         if(intent.resolveActivity(packageManager) !=null) { //check to see if there are any apps that satisfy these requirements
+                            startActivity(intent)}
+             
+             *`Manifest`
+             * `<queries>
+                   <intent>
+                   <action android:name="android.intent.action.SEND"/>
+                   <data android:mimeType="text/plain"></data>
+                    </intent>
+                </queries>`
+               <img width="257" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/cc4d3eab-d6b5-44d7-beaa-c61ba526e95b">
+               <img width="246" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/285d77e4-ea5a-4fa2-bb6a-9d34b89d440f">
+               
+             3.  If you want to register your app to **receive an Intent**
+                  * Your app can pop up in a App Chooser where other apps can see by using an Intent Filter
+                  * Intent Filter - we can specify that our app receives tabs of intents
+                  * Share image - Chrome will send an intent that it wants to share an image.
+                  * If you press More - that will now show all apps that can accept such images.
+                  * Set up your app to receive an image and show that image in our app > Manifest> specify intent filter
+                  * Register in the Manifest
+                    <img width="514" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/70bc23c3-e567-452e-801a-691c76ea7138">
+
+                    
+        
+                  
             </details>
             
    - [x] [Text Fields - UX With Material3](https://www.youtube.com/watch?v=ZERIxmBYP-U)
