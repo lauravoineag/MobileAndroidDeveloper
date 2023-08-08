@@ -419,40 +419,21 @@ Arhitecture - https://developer.android.com/topic/architecture/intro
 - [ ] https://developer.android.com/codelabs/jetpack-compose-testing?authuser=1#1
 - [ ] https://youtu.be/kdwofTaEHrs
 
-#### Components:
-- [ ] Lazy grid [****](https://youtu.be/eC-hNDgUd1Y)
-
-#### Random
-- [ ] use a screenreader https://support.google.com/accessibility/android/answer/6007100?hl=en-GB
-- [ ] Git branching https://learngitbranching.js.org/
-- [ ] Accessibility https://developer.android.com/jetpack/compose/accessibility?authuser=1
-- [ ] AWS Essential Course
-- [ ] Remote config https://www.youtube.com/watch?v=pcnnbjAAIkI  https://firebase.google.com/docs/remote-config/get-started?platform=ios
-
-* Remote config the problem (why)
-    - To be able to change the way apps look in terms of design and behave on the users' phones without needing them to update the app on one of the app stores.
-
-* How we use it
-    - Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
-We put a unique copy of config up on the web for each version we release. Each version of the app essentially looks for the config for it's own app version. Android version 1.151.1 will look for something like android - 1.151.1.json on the web.
-
-* The benefit
-    - Each version of the app that gets released to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable Top Nav for a version of the app in live that doesn't contain the code for Top Nav, therefore the config for that version won't contain an "enableTopNav" config.
-We can turn things on remotely - but we can also turn things off remotely if they go wrong! So, if we were turn on a new feature this week for the latest version and suddenly there were a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
-
-    - Remote config does allow us to kill a version of the app though! E.g. a bug is written in version 1.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like the new feature, then we really don't want that version of the app to continue being used. We can remotely say "turn the kill switch on for version 1.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service(a different department who is responsible for supplying information relevant to our new feature) won't be in so much trouble.
-
-    - Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
-
 
 # Kotlin
-
-
 #### Android Kotlin courses
+  <details><summary>Summary</summary>
+  
 - [ ] [Kotlin from newbie to pro](https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9)
 - [ ] https://developer.android.com/courses/android-basics-kotlin/course
 - [ ] https://developer.android.com/kotlin
 - [ ] KOTLIN NEWBIE TO PRO https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9
+
+- [ ] [Kotlin Enums](https://www.youtube.com/watch?v=1rW52kazuJk)
+        <details><summary>Summary</summary>
+        <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/0e919141-b742-476c-9021-59cbb179aa3c">
+        </details>
+  </details>
 
 - [x]  Pluralsight (one course - 3 days;  course 2 - 3 days)  - 6 days of Pluralsight - Kotlin Fundamentals by Kevin Jones - done(2 weeks) https://app.pluralsight.com/channels/details/f7146668-d19c-4661-949c-cffa6a6556f5
     Kotlin Fundamentals by Kevin Jones
@@ -512,6 +493,31 @@ We may use CD to publish potential releases to the Alpha/Beta tracks of Google P
  ##### Inspiration for project designs:
 https://dribbble.com/shots
 https://daringfireball.net/projects/markdown/syntax#overview
+
+#### Components:
+- [ ] Lazy grid [****](https://youtu.be/eC-hNDgUd1Y)
+
+#### Random
+- [ ] use a screenreader https://support.google.com/accessibility/android/answer/6007100?hl=en-GB
+- [ ] Git branching https://learngitbranching.js.org/
+- [ ] Accessibility https://developer.android.com/jetpack/compose/accessibility?authuser=1
+- [ ] AWS Essential Course
+- [ ] Remote config https://www.youtube.com/watch?v=pcnnbjAAIkI  https://firebase.google.com/docs/remote-config/get-started?platform=ios
+
+* Remote config the problem (why)
+    - To be able to change the way apps look in terms of design and behave on the users' phones without needing them to update the app on one of the app stores.
+
+* How we use it
+    - Every version of the apps we put on the stores has it's own version number - i.e. 1.150.0, 1.151.0, 1.151.1 etc.
+We put a unique copy of config up on the web for each version we release. Each version of the app essentially looks for the config for it's own app version. Android version 1.151.1 will look for something like android - 1.151.1.json on the web.
+
+* The benefit
+    - Each version of the app that gets released to the store has different behaviour and capabilities and therefore needs its own config. e.g. we can't enable Top Nav for a version of the app in live that doesn't contain the code for Top Nav, therefore the config for that version won't contain an "enableTopNav" config.
+We can turn things on remotely - but we can also turn things off remotely if they go wrong! So, if we were turn on a new feature this week for the latest version and suddenly there were a bunch of crashes, we can turn it back off again - much less catastrophic of having to kill a version of the app.
+
+    - Remote config does allow us to kill a version of the app though! E.g. a bug is written in version 1.160.0 of the app, that meant that the app sent 1000000 requests to API service an hour and it wasn't behind a feature flag like the new feature, then we really don't want that version of the app to continue being used. We can remotely say "turn the kill switch on for version 1.160.0" and then any users on that version will see a message in the app saying "you need to update the app in order to carry on using our app" and API service(a different department who is responsible for supplying information relevant to our new feature) won't be in so much trouble.
+
+    - Seeing this in a another way, it's just like any back-end service, the app makes a request for data over HTTP and the server responds. If the API service Url was moving to a new location, we can just edit the remote config file to reflect that new location. If we didn't have remote config, and the Url had been hard coded into the app, then we would need to do a new release of the app to change the url and kill the old versions. Mobile is different to web in that we have many versions of the application live at any one time as people are free to take updates as and when they choose. This means we have to be able to reconfigure the application after it has been released and remote config is our mechanism to do that.
 
 Good to know:
 
