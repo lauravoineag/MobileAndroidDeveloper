@@ -432,6 +432,8 @@ Arhitecture - https://developer.android.com/topic/architecture/intro
 - [ ] [Kotlin Enums](https://www.youtube.com/watch?v=1rW52kazuJk)
         <details><summary>Summary</summary>
         <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/173ebfea-0c5d-4d15-8322-6538382fa976">
+        <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/353c70c2-93f6-4585-8658-0d137613f8ce">
+
         * when() it will print "Peter has Gold Card" because the value is set to Gold
         </details>
   </details>
