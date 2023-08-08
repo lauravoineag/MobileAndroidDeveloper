@@ -434,7 +434,7 @@ Arhitecture - https://developer.android.com/topic/architecture/intro
         <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/06388671-62a6-428c-8a1f-bcbc084bbfc4">
         <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/353c70c2-93f6-4585-8658-0d137613f8ce">
         <img width="782" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/420a302e-0f0a-4bc1-a98d-2ab519fffeef">
-
+        <img width="998" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/b0267802-87b2-48e4-8586-12cb73f7444a">
         </details>
   </details>
 
