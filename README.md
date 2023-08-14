@@ -426,8 +426,10 @@ Arhitecture - https://developer.android.com/topic/architecture/intro
         <img width="609" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/353c70c2-93f6-4585-8658-0d137613f8ce">
         <img width="782" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/420a302e-0f0a-4bc1-a98d-2ab519fffeef">
         <img width="998" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/b0267802-87b2-48e4-8586-12cb73f7444a">
+        you add in the parameters to the enum class to be able to access the values you pass in.
+        <img width="924" alt="image" src="https://github.com/lauravoineag/MobileAndroidDeveloper/assets/77536595/d7ebe262-f6f7-4936-9a8e-f07be1fc4cf9">
         </details>
-  </details>
+</details>
 
 - [x]  Pluralsight (one course - 3 days;  course 2 - 3 days)  - 6 days of Pluralsight - Kotlin Fundamentals by Kevin Jones - done(2 weeks) https://app.pluralsight.com/channels/details/f7146668-d19c-4661-949c-cffa6a6556f5
     Kotlin Fundamentals by Kevin Jones
