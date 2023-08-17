@@ -309,6 +309,8 @@ Organising:
             
         - [x] [Foregroud Services](https://www.youtube.com/watch?v=YZL-_XJSClc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=8)
         - [ ] [Work Manager](https://www.youtube.com/watch?v=A2JetouoNSc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=9)
+        - [ ] [URIs - Unique Source Identifier](https://www.youtube.com/watch?v=4Ob0plBL084&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=10)
+        - [ ] [Content Providers](https://www.youtube.com/watch?v=IVHZpTyVOxU&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=12)
 
 
 3. - [ ]  [Modern Android App Arhitecture](https://developer.android.com/courses/pathways/android-architecture) Mentor advice
