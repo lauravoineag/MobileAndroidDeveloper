@@ -53,13 +53,14 @@ Organising:
 
 #### Videos 
 1. - [x] [The Jetpack Compose Beginner Crash Course for 2023 - speedy basics video](https://www.youtube.com/watch?v=6_wK_Ud8--0)
-   - [ ] [Jetpack Compose Basics](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)*
+  2. - [ ] [Jetpack Compose Basics](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)*
+       - [ ] [Creating your first Jetpack Compose App - Part1](https://www.youtube.com/watch?v=cDabx3SjuOY&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=1)
    - [ ] [Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
 
 
 [Full beginner roadmap:](https://www.youtube.com/watch?v=AhUL5tHF3uc)
          
-2. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
+3. - [ ] [Android Basics 2023](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm)
       - [x] [Activities & the Activity Lifecycle](https://www.youtube.com/watch?v=SJw3Nu_h8kk)
             <details><summary>Summary</summary>
            * An activity is a container for one or multiple screens in your app OR a Unit of your app where users interact, generally it's the entry point of your app
