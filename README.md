@@ -308,7 +308,7 @@ Organising:
             </details>
             
         - [x] [Foregroud Services](https://www.youtube.com/watch?v=YZL-_XJSClc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=8)
-        - [x] [Work Manager](https://www.youtube.com/watch?v=A2JetouoNSc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=9)
+        - [ ] [Work Manager](https://www.youtube.com/watch?v=A2JetouoNSc&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&index=9)
 
 
 3. - [ ]  [Modern Android App Arhitecture](https://developer.android.com/courses/pathways/android-architecture) Mentor advice
