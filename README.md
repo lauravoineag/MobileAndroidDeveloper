@@ -524,6 +524,7 @@ We can turn things on remotely - but we can also turn things off remotely if the
 
 Adding on the pile 
 [Android how to start](https://developer.android.com/courses)
+[Android Development with Kotlin](https://developer.android.com/courses/android-development-with-kotlin/course)
 Good to know:
 
 https://developer.android.com/studio
