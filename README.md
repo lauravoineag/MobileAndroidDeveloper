@@ -3,6 +3,10 @@
 
 [Shuhari](https://en.wikipedia.org/wiki/Shuhari) 
 
+Other resources
+[Other path1](https://codingwithmitch.com/)
+[Other path2](https://www.youtube.com/@codingwithmitch)
+
 Overview
 
 [0. Android](https://github.com/lauravoineag/MobileAndroidDeveloper/blob/main/README.md#Android)
