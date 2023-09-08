@@ -71,7 +71,9 @@ Organising:
        - [ ] [FullGuide to Compose Effect Handlers](https://www.youtube.com/watch?v=gxWcfz3V2QE&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=10)
           
        - [ ] [The Ultimate Retrofit Crash Course](https://www.youtube.com/watch?v=t6Sql3WMAnk)
+       - [ ] [API](https://developer.android.com/codelabs/basic-android-kotlin-training-getting-data-internet#0)
    - [ ] [Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+
 
 
 [Full beginner roadmap:](https://www.youtube.com/watch?v=AhUL5tHF3uc)
