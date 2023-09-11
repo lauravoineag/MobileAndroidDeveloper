@@ -70,6 +70,7 @@ Organising:
        - [x] [Constraint Layout](https://www.youtube.com/watch?v=FBpiOAiseD0&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=9)
        - [ ] [FullGuide to Compose Effect Handlers](https://www.youtube.com/watch?v=gxWcfz3V2QE&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=10)
     
+       - [ ] [Get data from the internet](https://developer.android.com/courses/pathways/android-basics-compose-unit-5-pathway-1#codelab-https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-kotlin-playground)
        - [ ] [The Ultimate Retrofit Crash Course](https://www.youtube.com/watch?v=t6Sql3WMAnk)
        - [x] [API Calling Using Retrofit With Jetpack Compose (MVVM) For Beginners](https://www.youtube.com/watch?v=bLIWWOMVxts)
        - [ ] [How to Post Data to API using Retrofit in Android](https://www.geeksforgeeks.org/how-to-post-data-to-api-using-retrofit-in-android-using-jetpack-compose/) 
