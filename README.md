@@ -71,6 +71,7 @@ Organising:
        - [ ] [FullGuide to Compose Effect Handlers](https://www.youtube.com/watch?v=gxWcfz3V2QE&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=10)
     
        - [ ] [The Ultimate Retrofit Crash Course](https://www.youtube.com/watch?v=t6Sql3WMAnk)
+       - [x] [API Calling Using Retrofit With Jetpack Compose (MVVM) For Beginners](https://www.youtube.com/watch?v=bLIWWOMVxts)
        - [ ] [API](https://developer.android.com/codelabs/basic-android-kotlin-training-getting-data-internet#0)
       
    - [ ] [Google Development Training](https://github.com/google-developer-training)
